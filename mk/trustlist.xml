@@ -185,7 +185,7 @@
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="">
+        <ns5:CriteriaList assert="atLeastOne">
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns3:Identifier>1.3.6.1.4.1.16305.1.2.5.1.4</ns3:Identifier>
@@ -403,7 +403,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name>KIBSTrust Issuing Qseal CA G2</Name>
+                            <Name xml:lang="en">KIBSTrust Issuing Qseal CA G2</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -431,7 +431,7 @@
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="">
+        <ns5:CriteriaList assert="atLeastOne">
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns3:Identifier>1.3.6.1.4.1.16305.1.2.5.1.3</ns3:Identifier>
@@ -488,6 +488,11 @@
                             <Name xml:lang="en">OneID</Name>
                             <Name xml:lang="mk">OneID</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2021-12-20T23:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -822,6 +827,11 @@
                             <Name xml:lang="en">Electronic preservation of documents</Name>
                             <Name xml:lang="mk">Електронско складирање на документи</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2021-02-19T23:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -837,6 +847,11 @@
                             <Name xml:lang="en">Qualified electronic preservation of documents</Name>
                             <Name xml:lang="mk">Квалификувано електронско складирање на документи</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2022-03-12T23:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -894,6 +909,11 @@
                             <Name xml:lang="en">Electronic preservation of documents</Name>
                             <Name xml:lang="mk">Електронско складирање на документи</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2021-06-16T22:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -909,6 +929,11 @@
                             <Name xml:lang="en">Qualified service for electronic preservation of documents</Name>
                             <Name xml:lang="mk">Квалификувана услуга за електронско складирање на документи</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2021-10-15T22:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -955,6 +980,11 @@
                             <Name xml:lang="en">National scheme for eID on low level of assurance</Name>
                             <Name xml:lang="mk">Национална шема за електронска идентификација на ниско ниво #МИОАШЕМА-Ф1</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2022-01-13T23:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
@@ -969,6 +999,11 @@
                             <Name xml:lang="en">National scheme for eID on high level of assurance</Name>
                             <Name xml:lang="mk">Национална шема за електронска идентификација на високо ниво #МИОАШЕМА-Ф2</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509SKI>needafixhere</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
                         <StatusStartingTime>2022-01-13T23:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>

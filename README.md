@@ -34,3 +34,12 @@ Sequence number: 10
 
 
 
+## North Macedonia (MK) &#x1F534;
+
+Source: https://trusteid.mioa.gov.mk/en/home/register-and-lists/
+
+Date: 2022-01-10T09:00:00Z
+
+NextUpdate: 2022-06-01T08:00:00Z
+
+Sequence number: 3

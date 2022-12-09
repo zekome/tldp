@@ -22,6 +22,8 @@ NextUpdate: 2023-01-20T00:00:00Z
 
 Sequence number: 5
 
+Status: TL Operator notified and fix expected.
+
 
 
 ## Serbia (RS) &#x1F7E2;
@@ -34,6 +36,8 @@ NextUpdate: 2023-03-15T01:00:00Z
 
 Sequence number: 10
 
+Status: Ok.
+
 
 
 ## North Macedonia (MK) &#x1F534;
@@ -45,3 +49,6 @@ Date: 2022-01-10T09:00:00Z
 NextUpdate: 2022-06-01T08:00:00Z
 
 Sequence number: 3
+
+Status: TL Operator notified about fix proposal.
+

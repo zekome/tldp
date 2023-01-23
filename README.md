@@ -16,11 +16,11 @@ Common files in repository:
 
 Source: https://www.gov.me/dokumenta/eea75b66-dac0-4937-bc6b-0bb4016d9510
 
-Date: 2022-07-20T01:00:00Z
+Date: 2023-01-20T02:00:00Z
 
-NextUpdate: 2023-01-20T00:00:00Z
+NextUpdate: 2023-07-19T23:00:00Z
 
-Sequence number: 5
+Sequence number: 6
 
 Status: TL Operator notified and fix expected.
 

@@ -14,7 +14,7 @@ Common files in repository:
 
 ## Montenegro (ME) &#x1F534;
 
-Source: https://www.gov.me/dokumenta/eea75b66-dac0-4937-bc6b-0bb4016d9510
+Source: https://www.gov.me/dokumenta/30a55bc0-24c7-4afe-af9b-e30c1f0ff7f2
 
 Date: 2023-01-20T02:00:00Z
 

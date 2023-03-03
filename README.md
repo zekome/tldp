@@ -14,13 +14,13 @@ Common files in repository:
 
 ## Montenegro (ME) &#x1F534;
 
-Source: https://www.gov.me/dokumenta/30a55bc0-24c7-4afe-af9b-e30c1f0ff7f2
+Source: https://wapi.gov.me/download/8ca1c8fa-5ecc-4a51-b563-0b8e02ff38ed
 
-Date: 2023-01-20T02:00:00Z
+Date: 2023-03-01T02:00:00Z
 
-NextUpdate: 2023-07-19T23:00:00Z
+NextUpdate: 2023-08-31T23:00:00Z
 
-Sequence number: 6
+Sequence number: 8
 
 Status: TL Operator notified and fix expected.
 

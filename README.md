@@ -30,11 +30,11 @@ Status: TL Operator notified and fix expected.
 
 Source: https://epotpis.mtt.gov.rs/eng/home/ 
 
-Date: 2022-09-16T01:00:00Z
+Date: 2022-12-26T02:00:00Z
 
-NextUpdate: 2023-03-15T01:00:00Z
+NextUpdate: 2023-06-26T00:00:00Z
 
-Sequence number: 10
+Sequence number: 11
 
 Status: Ok.
 

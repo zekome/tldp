@@ -12,17 +12,17 @@ Common files in repository:
 - trustlist.xml - distributed TrustList which is same as the source or implements proposed fix but with broken signature
 
 
-## Montenegro (ME) &#x1F534;
+## Montenegro (ME) &#x1F7E2;
 
-Source: https://wapi.gov.me/download/8ca1c8fa-5ecc-4a51-b563-0b8e02ff38ed
+Source: https://wapi.gov.me/download/07706c7d-0e90-483d-b7af-502ff743b57d
 
-Date: 2023-03-01T02:00:00Z
+Date: 2023-03-13T02:00:00Z
 
-NextUpdate: 2023-08-31T23:00:00Z
+NextUpdate: 2023-09-12T23:00:00Z
 
-Sequence number: 8
+Sequence number: 9
 
-Status: TL Operator notified and fix expected.
+Status: Ok.
 
 
 

@@ -14,13 +14,13 @@ Common files in repository:
 
 ## Montenegro (ME) &#x1F7E2;
 
-Source: https://wapi.gov.me/download/07706c7d-0e90-483d-b7af-502ff743b57d
+Source: https://wapi.gov.me/download/8122b596-9e1a-4e5f-b97a-1d70d49af02b
 
-Date: 2023-03-13T02:00:00Z
+Date: 2023-03-21T02:00:00Z
 
-NextUpdate: 2023-09-12T23:00:00Z
+NextUpdate: 2023-09-20T23:00:00Z
 
-Sequence number: 9
+Sequence number: 10
 
 Status: Ok.
 

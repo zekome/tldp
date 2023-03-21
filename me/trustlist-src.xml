@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ME_TL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>9</TSLSequenceNumber>
+        <TSLSequenceNumber>10</TSLSequenceNumber>
         <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="sr">MINISTARSTVO JAVNE UPRAVE</Name>
@@ -38,13 +38,10 @@
             <TSLLegalNotice xml:lang="en">Records and register of providers of electronic trust services of Montenegro are kept on the basis of the Law on Electronic Identification and Electronic Signature ("The Official gazette of Montenegro", no. 31/2017 and 72/2019)</TSLLegalNotice>
         </PolicyOrLegalNotice>
         <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
-        <ListIssueDateTime>2023-03-13T02:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2023-03-21T02:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2023-09-12T23:00:00Z</dateTime>
+            <dateTime>2023-09-20T23:00:00Z</dateTime>
         </NextUpdate>
-        <DistributionPoints>
-            <URI>https://wapi.gov.me/download/8ca1c8fa-5ecc-4a51-b563-0b8e02ff38ed?version=1.0</URI>
-        </DistributionPoints>
     </SchemeInformation>
     <TrustServiceProviderList>
         <TrustServiceProvider>
@@ -739,17 +736,39 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust eDelivery</Name>
+                            <Name xml:lang="en">CTrust eDelivery</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Crnogorski Telekom TSA Servis, SERIALNUMBER=CT TSU01, O=Crnogorski Telekom A.D. Podgorica, OU=Pravno lice, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>WNtJ12BxIlfejFfM6TG6kJDu40U=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-01-11T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Ministarstvo javne uprave, digitalnog društva i medija</Name>
-                    <Name xml:lang="en">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                    <Name xml:lang="sr">Ministarstvo javne uprave</Name>
+                    <Name xml:lang="en">Ministarstvo javne uprave</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Ministarstvo javne uprave, digitalnog društva i medija</Name>
-                    <Name xml:lang="en">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                    <Name xml:lang="sr">Ministarstvo javne uprave</Name>
+                    <Name xml:lang="en">Ministarstvo javne uprave</Name>
                     <Name xml:lang="sr">GOV</Name>
                     <Name xml:lang="en">GOV</Name>
                 </TSPTradeName>
@@ -969,4 +988,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-f07892c6602970f872a7dab6084f6f1e"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Xp7fny/K6oWDaFy9WkVo3F+6k5aLEyJjoWjYhENlYVE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-f07892c6602970f872a7dab6084f6f1e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2nKufBLBHGinNwpfMLDo6u2hSg7XcdIt47nPEAfViDw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-f07892c6602970f872a7dab6084f6f1e">Xa8vOFMkEGp6DTnzvTRMIrQ9i5p5X1iSO1uwM1Xa9orbeb/qrjMg5eD67w4ewnPEHTLga40KYYBPufnfYHjiv5gzck8CR5skH2jltJTawIxyX5bE3Z/cj5WCWwkdkGjY/WZV7B9grmjSYZ4+UUIRqfMKiH6XpOYlOFZAKt/aNL/sXeT4Sr9JhtuOxIjvPrHt6R+H3Lq1C8zjy4Uy9UdFv/zGORcqVcHuZd5xsMbiZLAhTou60k5bs16JwSjaeLJ7Z39zkwp6eEHIGapHu+wTE0VUbwS2YhpxiJuC3IGs2oUrJpnX2r5X8cr8cro1/Uj3rDa0IVvwGbpsKRQyLiVyIA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-f07892c6602970f872a7dab6084f6f1e"><xades:SignedProperties Id="xades-id-f07892c6602970f872a7dab6084f6f1e"><xades:SignedSignatureProperties><xades:SigningTime>2023-03-13T09:17:23Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>y8yO3hXdnHLJK2pCxk3XDzJ/XTUhmiohtXzuJFYTC7vapnTsMTDeaAI9hlGUdmDmwOguNzhl/7KZM5b1sC4yew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/plain</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3cb6421f74b2f013e3137bab10f39b6f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>maofg9UQyms6X1zYZfzc78mPc24E212kqAt78tBUGwA=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3cb6421f74b2f013e3137bab10f39b6f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lzaN11yS2u4HA/6iDBwAszGTVWWYDbKpNRcv5EvSMkA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3cb6421f74b2f013e3137bab10f39b6f">lEG8UDhBDmxjea+jstFMdfflmkOJ4Td9Zndr3c6HG3GYJJ9oM7z3maRglKFXo18WjdPGu6NNVrYx38D6QAoPInlj1M+XG88R3+clU7uwhXQ4WkR2wlbA4LGDA1lihmpJEJ36FmA70C6m7dEKXBJmvNATGxPT5VQSiuid44ZT5v2eamuV+JrYEo8fAaic8x8V1wpITPJFWmMP9G0oPEBs6AbFdPsBFtimvEFl5P2qFALucWjSnzphGdfGpfZHx/9pk8EWteJdBC+5ZtR5GM3OQXhqAvwCqB08j9gKoo1z7B09SC/O2GLaf20cB5j8jLfpQFiq+tt9OU7OTRxihZPGjw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3cb6421f74b2f013e3137bab10f39b6f"><xades:SignedProperties Id="xades-id-3cb6421f74b2f013e3137bab10f39b6f"><xades:SignedSignatureProperties><xades:SigningTime>2023-03-21T10:50:21Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>y8yO3hXdnHLJK2pCxk3XDzJ/XTUhmiohtXzuJFYTC7vapnTsMTDeaAI9hlGUdmDmwOguNzhl/7KZM5b1sC4yew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/plain</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

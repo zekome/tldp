@@ -16,11 +16,11 @@ Common files in repository:
 
 Source: https://wapi.gov.me/download/8122b596-9e1a-4e5f-b97a-1d70d49af02b
 
-Date: 2023-03-21T02:00:00Z
+Date: 2023-05-25T01:00:00Z
 
-NextUpdate: 2023-09-20T23:00:00Z
+NextUpdate: 2023-11-25T00:00:00Z
 
-Sequence number: 10
+Sequence number: 11
 
 Status: Ok.
 

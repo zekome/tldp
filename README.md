@@ -14,7 +14,7 @@ Common files in repository:
 
 ## Montenegro (ME) &#x1F7E2;
 
-Source: https://wapi.gov.me/download/8122b596-9e1a-4e5f-b97a-1d70d49af02b
+Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-usluge-povjerenja
 
 Date: 2023-05-25T01:00:00Z
 

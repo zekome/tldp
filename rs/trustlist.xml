@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL-RS" TSLTag="http://uri.etsi.org/19612/TSLTag">
+﻿<?xml version="1.0" encoding="UTF-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL-RS" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>11</TSLSequenceNumber>
+        <TSLSequenceNumber>14</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/RSlist</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Republic of Serbia, Ministry of Information and Telecommunications</Name>
@@ -79,13 +79,44 @@
                     </OtherInformation>
                 </AdditionalInformation>
             </OtherTSLPointer>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                </ServiceDigitalIdentities>
+                <TSLLocation>https://tl.gov.me/ME_TL.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>ME</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName>
+                            <Name xml:lang="en">Montenegro, Ministry of Public Administration</Name>
+                        </SchemeOperatorName>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules>
+                            <URI xml:lang="en">http://tl.gov.me/mju/TrstSvc/TrustedList/schemerules/ME</URI>
+                        </SchemeTypeCommunityRules>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2022-12-26T02:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2023-08-29T01:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2023-06-26T00:00:00Z</dateTime>
+            <dateTime>2024-02-28T01:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
-            <URI>https://epotpis.mtt.gov.rs/TrustedList/TSL-RS.xml</URI>
+            <URI>https://www.mit.gov.rs/TrustedList/TSL-RS.xml</URI>
         </DistributionPoints>
     </SchemeInformation>
     <TrustServiceProviderList>
@@ -120,10 +151,10 @@
                     </PostalAddresses>
                     <ElectronicAddress>
                         <URI xml:lang="en">https://www.ca.posta.rs/serbian_post_ca.htm</URI>
-                        <URI xml:lang="en">mailto:cepp@posta.rs</URI>
+                        <URI xml:lang="en">mailto:ca-podrska@posta.rs</URI>
                         <URI xml:lang="en">mailto:ca-rukovodilac@ca.posta.rs</URI>
                         <URI xml:lang="sr-latn">https://www.ca.posta.rs</URI>
-                        <URI xml:lang="sr-latn">mailto:cepp@posta.rs</URI>
+                        <URI xml:lang="sr-latn">mailto:ca-podrska@posta.rs</URI>
                         <URI xml:lang="sr-latn">mailto:ca-rukovodilac@ca.posta.rs</URI>
                     </ElectronicAddress>
                 </TSPAddress>
@@ -152,7 +183,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2008-12-14T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2019-08-05T22:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <ns5:Qualifications>
@@ -201,7 +232,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -223,7 +254,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -245,13 +276,13 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2008-12-14T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
-            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithSSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
         </ns5:Qualifiers>
         <ns5:CriteriaList assert="atLeastOne">
@@ -269,6 +300,47 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Issuance of qualified certificates for electronic signature (2008-10-20)</Name>
+<Name xml:lang="sr-latn">Izdavanje kvalifikovanih sertifikata za elektronski potpis (2008-10-20)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Posta CA 1, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=ca, DC=posta, DC=rs</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>LmenJtboZ3DnqvqQLDC812FlH4Y=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/accredited</ServiceStatus>
+                            <StatusStartingTime>2008-12-14T23:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithSSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -289,7 +361,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -311,7 +383,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -333,7 +405,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -355,7 +427,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -377,7 +449,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -399,7 +471,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -421,7 +493,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -443,7 +515,51 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2012-03-08T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Issuance of qualified electronic time stamps - TSU 1 (2023-08-03)</Name>
+                            <Name xml:lang="sr-latn">Izdavanje kvalifikovanih elektronskih vremenskih žigova - TSU 1 (2023-08-03)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJLjCCBxagAwIBAgIJFiSR0Fv2Gk7YMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDgwMzA3MDY1NVoXDTI5MDgwMzA3MDYxOFowgasxCzAJBgNVBAYTAlJTMRcwFQYDVQRhDA5NQjpSUy0wNzQ2MTQyOTEYMBYGA1UEYQwPVkFUUlMtMTAwMDAyODAzMScwJQYDVQQKDB5KYXZubyBwcmVkdXplxIdlIFBvxaF0YSBTcmJpamUxGDAWBgNVBAUTD0NBOlJTLTIwMDA2MTM1MDEmMCQGA1UEAwwdUG/FoXRhIFNyYmlqZSBUU0EgMSAyMDAwNjEzNTAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRn5nPwTpfVmddiG/EEy7Ghl2KroqVouwK0mEi0i5y91MRdZqkBaHTBlMzuUwOQhyRU4tzgHexrOUue81CzD38bQ6QEg1BG+Mr/GQqfMfuJjcIv3qVaHZXvLtvAGAmMN1Tvjqh4+kCK1j7G/qJwLNixgKW1FOE5QxLJ2cS1TpmbNrUqvD6CRkzx9O1iRIXvatBlRBGaXOAIFkCDQ40at/sU0D4jo1CjqrBxwLCubx3LuOSibo+VZbNXYRchKCvZUvDfVET+5pAO8dGvsGHEky4yLEku0Rm1cu14s1CTFwUmNCj4hU4ujpQ8f/CnS1yS3EmZJ1NwE8o/9xEp7JPEh65AgMBAAGjggR+MIIEejAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAfBgNVHSMEGDAWgBRjz3fZvAhlWlKKF9oe131ScgWjRzAdBgNVHQ4EFgQUHRJlo/XOYICBeghaSpL6c9k4J70wggESBgNVHR8EggEJMIIBBTCCAQGggf6ggfuGgcJsZGFwOi8vbGRhcC1vY3NwLmNhLnBvc3RhLnJzL0NOPVBvJWM1JWExdGElMjBTcmJpamUlMjBDQSUyMDEsTz1KYXZubyUyMHByZWR1emUlYzQlODdlJTIwUG8lYzUlYTF0YSUyMFNyYmlqZSxvcmdhbml6YXRpb25JZGVudGlmaWVyPVZBVFJTLTEwMDAwMjgwMyxMPUJlb2dyYWQsQz1SUz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0O2JpbmFyeYY0aHR0cDovL3JlcG9zaXRvcnkuY2EucG9zdGEucnMvY3JsL1Bvc3RhU3JiaWplQ0ExLmNybDB3BggrBgEFBQcBAwRrMGkwPgYIKwYBBQUHCwIwMgYHBACL7EkBAjAnhiVodHRwczovL3d3dy5jYS5wb3N0YS5ycy9kb2t1bWVudGFjaWphMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgIwggFUBggrBgEFBQcBAQSCAUYwggFCMIHDBggrBgEFBQcwAoaBtmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NBQ2VydGlmaWNhdGU7YmluYXJ5MEsGCCsGAQUFBzAChj9odHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jYS1zZXJ0aWZpa2F0aS9Qb3N0YVNyYmlqZUNBMS5kZXIwLQYIKwYBBQUHMAGGIWh0dHA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvb2NzcDCB0AYDVR0gBIHIMIHFMAkGBwQAi+xAAQMwgbcGDCsGAQQB+jgKhiwBADCBpjAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cuY2EucG9zdGEucnMvZG9rdW1lbnRhY2lqYTBxBggrBgEFBQcCAjBlDGNPdm8gamUga3ZhbGlmaWtvdmFuaSBlbGVrdHJvbnNraSBzZXJ0aWZpa2F0IHphIGVsZWt0cm9uc2tpIHBlxI1hdCB6YSB2YWxpZGFjaWp1IHZyZW1lbnNraWggxb5pZ292YS4wHgYDVR0RBBcwFYETY2EtcG9kcnNrYUBwb3N0YS5yczArBgNVHRAEJDAigA8yMDIzMDgwMzA3MDY1NVqBDzIwMjQwODAzMDcwNjU1WjANBgkqhkiG9w0BAQ0FAAOCAgEAG1UDD6ZUJhpf0QaCUqMRNeRWxZHx55z32DbDYVR3u0mY7xLzV84deZtoyM1SazHd5K5zKkLvJle3iBdHO73yByG9ca4qhd54PBd6Qe6C50fwph9LOR9cOxyYAki+f4AiFByC5VbvzNyjvJEPT0gqLWNZXs+thb2uVGVL8bNPseu3ziiSkKhPn5lkpNsGHysHn5QulxpTZ3N1LA7D4KjiEWiV8I/fKSJCgeu7Z3kgEpUl0yvAWkGEXwyKy5ES2LjP1eIie2gLErbgqGszAuhxpRYWP0T+rvFfvAHPSSg81CZIHnpDpL3kcWCRCEvrWhj6KiukIDKNFB+VTKarqwPA/Ge5jv9MKBuQp01cRqQ3m2sfrj8UOTHn/1OVQuKHBmoRXrLbrluOh0JJZ8Z6MNTGuA+CJcOccgARegALQCp9icaJh1rn05r8SVlsONWV/3ybJhU4wR/lOMKfZU7I6dpVMJlBySKANKBRLh9TlCJFlPa2coICbKZRosnliplePQKdbuOqZrqLhpOOMnmgwoA6GQY7pRr91ED/iSFxwS5fB423TcADGCOD6dpWUlYSR1j5fjDbAgFGxeZLSSr/opWxZiKM/avd2+okfuxax5SVT7c3qOLjtzDtBskrjIoEv/dGD3go6L5+v2AAbK0BykOUNKnbBmmBmK8D1O3RHWFGz3Q=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Pošta Srbije TSA 1 200061350, SERIALNUMBER=CA:RS-200061350, O=Javno preduzeće Pošta Srbije, OID.2.5.4.97=VATRS-100002803, OID.2.5.4.97=MB:RS-07461429, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>HRJlo/XOYICBeghaSpL6c9k4J70=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Issuance of qualified electronic time stamps - TSU 2 (2023-08-03)</Name>
+                            <Name xml:lang="sr-latn">Izdavanje kvalifikovanih elektronskih vremenskih žigova - TSU 2 (2023-08-03)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJLjCCBxagAwIBAgIJZKbfblVMrf4sMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDgwMzA2NTYwMVoXDTI5MDgwMzA2NTUyNlowgasxCzAJBgNVBAYTAlJTMRcwFQYDVQRhDA5NQjpSUy0wNzQ2MTQyOTEYMBYGA1UEYQwPVkFUUlMtMTAwMDAyODAzMScwJQYDVQQKDB5KYXZubyBwcmVkdXplxIdlIFBvxaF0YSBTcmJpamUxGDAWBgNVBAUTD0NBOlJTLTIwMDA2MTM0OTEmMCQGA1UEAwwdUG/FoXRhIFNyYmlqZSBUU0EgMiAyMDAwNjEzNDkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsoPXPEqLfN5mLSn/TFkf9U8KzDdv3RyGXPBdTZpnhd4TKinEf02LXq18utAzlM2ivgQKh5pRQuaRREfSwTn7yKnbuyEDndqJAvNlR1DaZX1hi0JzbOxzlg0imJ2oL6M48JqVgwnpr5B7qe00DGmGrVxWfCxifRlM4bCovMVQjT5oyG61+KORlTxrNjbl+tKIvy8bO/2fltIyGjeb+LyoNLtTaoCfBND+htSn3cgFp40u5xTSxiNoyGzt7g4XZQT6JoWJyhAJkW6CWNX02gM3ttkTeuAWHdoKS6TrzfpkTlwBxD/6XtDDx5KsG+3PFzl+mVxYWJh4/O02wsPluu93VAgMBAAGjggR+MIIEejAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAfBgNVHSMEGDAWgBRjz3fZvAhlWlKKF9oe131ScgWjRzAdBgNVHQ4EFgQUYrFCoO3UiUqCvEvUO2j5NHo/vMkwggESBgNVHR8EggEJMIIBBTCCAQGggf6ggfuGgcJsZGFwOi8vbGRhcC1vY3NwLmNhLnBvc3RhLnJzL0NOPVBvJWM1JWExdGElMjBTcmJpamUlMjBDQSUyMDEsTz1KYXZubyUyMHByZWR1emUlYzQlODdlJTIwUG8lYzUlYTF0YSUyMFNyYmlqZSxvcmdhbml6YXRpb25JZGVudGlmaWVyPVZBVFJTLTEwMDAwMjgwMyxMPUJlb2dyYWQsQz1SUz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0O2JpbmFyeYY0aHR0cDovL3JlcG9zaXRvcnkuY2EucG9zdGEucnMvY3JsL1Bvc3RhU3JiaWplQ0ExLmNybDB3BggrBgEFBQcBAwRrMGkwPgYIKwYBBQUHCwIwMgYHBACL7EkBAjAnhiVodHRwczovL3d3dy5jYS5wb3N0YS5ycy9kb2t1bWVudGFjaWphMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgIwggFUBggrBgEFBQcBAQSCAUYwggFCMIHDBggrBgEFBQcwAoaBtmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NBQ2VydGlmaWNhdGU7YmluYXJ5MEsGCCsGAQUFBzAChj9odHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jYS1zZXJ0aWZpa2F0aS9Qb3N0YVNyYmlqZUNBMS5kZXIwLQYIKwYBBQUHMAGGIWh0dHA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvb2NzcDCB0AYDVR0gBIHIMIHFMAkGBwQAi+xAAQMwgbcGDCsGAQQB+jgKhiwBADCBpjAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cuY2EucG9zdGEucnMvZG9rdW1lbnRhY2lqYTBxBggrBgEFBQcCAjBlDGNPdm8gamUga3ZhbGlmaWtvdmFuaSBlbGVrdHJvbnNraSBzZXJ0aWZpa2F0IHphIGVsZWt0cm9uc2tpIHBlxI1hdCB6YSB2YWxpZGFjaWp1IHZyZW1lbnNraWggxb5pZ292YS4wHgYDVR0RBBcwFYETY2EtcG9kcnNrYUBwb3N0YS5yczArBgNVHRAEJDAigA8yMDIzMDgwMzA2NTYwMVqBDzIwMjQwODAzMDY1NjAxWjANBgkqhkiG9w0BAQ0FAAOCAgEAKOY5B5T54NRHko5X2epIXo73Rdpbcau2PBXTR4CKNBwYGEM/6qco+UWpcS9t3VgSL7zhR+Aovm4vbkwSjL1TiMscqjn8F8l/2R8KixIGxchJI3npfGFBBBG+bk4CPhvyfVu8ng60M/P3jgXKI2HpQsR/Hd7CrxCzTtzoch19vUcLxO3DJ+uIBdZbxuCU6/b8LfPLTSeYDivtFyv6pgvuPUMOEs4FcYV/Sl+ymg57Imfb4vOpUCWPZ7ohALuRzgco8fogyO8x0HdgLSstG2+0LRb96JfTSoVZ7EN2YpdOfDwfYaM/GH+qg0mmr/RzTKKarWPTG8b+Ri8KO163pOi/Z7Gxf3J8IqgLzOxM+a8j1sBk9z/33MTcwtMpZ1/mcn6/dyDFMog/CAnFcK/tSa0ZSHsVKlyLdb2dvC8rOjFIoqiq5uiww7kk7kkYkKmyoIv7vzDb68qofE0aCO4clB+Nk8XXKmGNHtyaItH91qljZUa+h2zoEV2RnOufhGCSPoRyMXhZKdI37heFiMbhZUqp4PHZMXe6czk/vYgKejyrPdgRq8Sh62jcoi51KJwBoBa84GEQV0sHLdxnAlYPzvU8blMxcnWBWTCaS5kHPY9a4gnG+lozp2QS5GMF4B9+LJwtN8b0qIf6lnXPAgufwZn5sTXbocBzBnVvbYzZmi5Ts+I=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Pošta Srbije TSA 2 200061349, SERIALNUMBER=CA:RS-200061349, O=Javno preduzeće Pošta Srbije, OID.2.5.4.97=VATRS-100002803, OID.2.5.4.97=MB:RS-07461429, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>YrFCoO3UiUqCvEvUO2j5NHo/vMk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -2136,7 +2252,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2158,7 +2274,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2180,7 +2296,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2202,7 +2318,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2224,7 +2340,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2246,7 +2362,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2268,7 +2384,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2290,7 +2406,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2356,7 +2472,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2378,7 +2494,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
@@ -2422,7 +2538,51 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2011-03-06T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Issuance of qualified electronic time stamps - TSU 1 (2023-04-04)</Name>
+                            <Name xml:lang="sr-latn">Izdavanje kvalifikovanih elektronskih vremenskih žigova - TSU 1 (2023-04-04)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJQDCCByigAwIBAgIJafEW4MRK29PnMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDQwNDA5NTgyNloXDTI5MDQwNDA5NTgyNFowgcIxCzAJBgNVBAYTAlJTMRcwFQYDVQRhDA5NQjpSUy0xODgyMDgwMzEYMBYGA1UEYQwPVkFUUlMtMTEwMTc3ODg2MUUwQwYDVQQKDDxLYW5jZWxhcmlqYSB6YSBpbmZvcm1hY2lvbmUgdGVobm9sb2dpamUgaSBlbGVrdHJvbnNrdSB1cHJhdnUxGDAWBgNVBAUTD0NBOlJTLTIwMDA1Njg0NzEfMB0GA1UEAwwWUlMtR09WIFRTQS0xIDIwMDA1Njg0NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANtO9rnj+D1Ys5OHBipA/us4SUBlPGU8HWvenLpVtkFq+j67DTQZaTWPdqGAho6XktV/RWIxgGL0iKJaZ0sFKF3ipPnE0ksWwIbjqZujTA4HriXfnjykAws0rFgS+qFMFehEq5xJJocS60t4tcaQV7pedIcNOwGd4dyNbZQgKXKAvL+XBBZKdhydEQrcW8lWqdEsKKNUiMNDY8qEqJC9AKHxNXHcWKEA/hiGoC8RtFQBp6Qb7P4ghbcBf9uI4Eejl8YzO+aVR/vejVjBDg55Hfbyude2CSx2wQXG4GqYXw55RSQgkPJ2wUnejDvf5ItjiyewhB21JNsN2nVs/7757QcCAwEAAaOCBHkwggR1MAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB8GA1UdIwQYMBaAFGPPd9m8CGVaUooX2h7XfVJyBaNHMB0GA1UdDgQWBBQQwDItNwSJJSgV9qrZJ+I8V+gWWzCCARIGA1UdHwSCAQkwggEFMIIBAaCB/qCB+4aBwmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5hjRodHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jcmwvUG9zdGFTcmJpamVDQTEuY3JsMHcGCCsGAQUFBwEDBGswaTA+BggrBgEFBQcLAjAyBgcEAIvsSQECMCeGJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjCCAVQGCCsGAQUFBwEBBIIBRjCCAUIwgcMGCCsGAQUFBzAChoG2bGRhcDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9DTj1QbyVjNSVhMXRhJTIwU3JiaWplJTIwQ0ElMjAxLE89SmF2bm8lMjBwcmVkdXplJWM0JTg3ZSUyMFBvJWM1JWExdGElMjBTcmJpamUsb3JnYW5pemF0aW9uSWRlbnRpZmllcj1WQVRSUy0xMDAwMDI4MDMsTD1CZW9ncmFkLEM9UlM/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnkwSwYIKwYBBQUHMAKGP2h0dHA6Ly9yZXBvc2l0b3J5LmNhLnBvc3RhLnJzL2NhLXNlcnRpZmlrYXRpL1Bvc3RhU3JiaWplQ0ExLmRlcjAtBggrBgEFBQcwAYYhaHR0cDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9vY3NwMIHQBgNVHSAEgcgwgcUwCQYHBACL7EABAzCBtwYMKwYBBAH6OAqGLAEAMIGmMDEGCCsGAQUFBwIBFiVodHRwczovL3d3dy5jYS5wb3N0YS5ycy9kb2t1bWVudGFjaWphMHEGCCsGAQUFBwICMGUMY092byBqZSBrdmFsaWZpa292YW5pIGVsZWt0cm9uc2tpIHNlcnRpZmlrYXQgemEgZWxla3Ryb25za2kgcGXEjWF0IHphIHZhbGlkYWNpanUgdnJlbWVuc2tpaCDFvmlnb3ZhLjAZBgNVHREEEjAQgQ50c2FAaXRlLmdvdi5yczArBgNVHRAEJDAigA8yMDIzMDQwNDA5NTgyNlqBDzIwMjQwNDA0MDk1ODI2WjANBgkqhkiG9w0BAQ0FAAOCAgEANeAJT4hjK+K5IVV8vGcSqgiONcE4K/O7TCnN5Ic/IBQ7ffuBPiYNpSh/P/y0iT5rkVXPrEQg6xYteYNFk99KO7E6dZLBJAIXElEupV8V56uaUFIRtjg3Rw+wx9AWlNvj6StiDpc248w8SLWzrn0dkl6tGe30250/5FPd742ReOvfQYH98qvSdP4yVHW3YAzpAuZdb7SMH14GXwbNMZJtobqc9q7x0c95Tyg6KvGmW70aUJj7+MXYTfS/sU9bGZAk1aW+ueRqH73XrM9z+uUYFF4B9RGI/7cPRVXXq6S863cPDARNSCxUAZRkWmQXdrTV/7HJHuKjovroQdnRe019IiRZ+QwMNUY3QMk3D/BfXS5rTiC9KW+/1/9zO74NSmNgAiYgX56M1u9zGCprViKIhFWQ9DdJ59oDjeYd85pGhhWoC+7AdiTWsKYCtZ7m1xCu0Wre9STodezmBHxwfGlHCK9ZP+fMCiH8PeRT9dzejktWzqvy/ttlOnGhnpBHcdfnYbvo80a9iUPnH/QJs6+6+tk0c0mMF91Xa38I5/fFvFJ7hPP+E2vo2slAbSEIYZAV2l+A5rtJrqcCYnfY8x1xYaqu4ZY6SVCkXjwK7c/PU6s0tEUIzItSn8BfYLNzGNghmAaeb6ZZHFPPRwHconxtbhBJo/wpQhzn9GlIUdBw7pA=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=RS-GOV TSA-1 200056847, SERIALNUMBER=CA:RS-200056847, O=Kancelarija za informacione tehnologije i elektronsku upravu, OID.2.5.4.97=VATRS-110177886, OID.2.5.4.97=MB:RS-18820803, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>EMAyLTcEiSUoFfaq2SfiPFfoFls=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Issuance of qualified electronic time stamps - TSU 2 (2023-04-04)</Name>
+                            <Name xml:lang="sr-latn">Izdavanje kvalifikovanih elektronskih vremenskih žigova - TSU 2 (2023-04-04)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJQDCCByigAwIBAgIJHGN16Z/9H1bIMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDQwNDEwMDUwNloXDTI5MDQwNDEwMDUwNFowgcIxCzAJBgNVBAYTAlJTMRcwFQYDVQRhDA5NQjpSUy0xODgyMDgwMzEYMBYGA1UEYQwPVkFUUlMtMTEwMTc3ODg2MUUwQwYDVQQKDDxLYW5jZWxhcmlqYSB6YSBpbmZvcm1hY2lvbmUgdGVobm9sb2dpamUgaSBlbGVrdHJvbnNrdSB1cHJhdnUxGDAWBgNVBAUTD0NBOlJTLTIwMDA1Njg0ODEfMB0GA1UEAwwWUlMtR09WIFRTQS0yIDIwMDA1Njg0ODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALsL4UvAjha3GptYWgAP6gy02CEUHeBCJQFL9uydapK+MtN6HCcXtkqLsVvOm9LlhjmZwj2ff6sh1mOKhB5gVaPLIb2oxrLR/7owH6vGQ7MvH9Y7AYHYzmMYNeY6jI5d/zuF3ARPnlBimq/dubeDEpXVJ9bs2E5MBtqSpy8oNrkYQnI6+hoemZMzs+AXdR0BDW9HNedOWkAJyf2baLTF7AlXBh0CR+ZvI4p6isztkG1+KHVWQLHeCyzeNoOY7m6veDSbd3hzZmkWMbEFQKOmf0Mb7ntFgqOm1eGKLmTPRcWCmD74BvaqAk+0gSKeK7XFiLgJv/9Ap+l7aPNzv1MrZisCAwEAAaOCBHkwggR1MAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB8GA1UdIwQYMBaAFGPPd9m8CGVaUooX2h7XfVJyBaNHMB0GA1UdDgQWBBRLevgQpcgbZgl19OFIicuvGDuHOzCCARIGA1UdHwSCAQkwggEFMIIBAaCB/qCB+4aBwmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5hjRodHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jcmwvUG9zdGFTcmJpamVDQTEuY3JsMHcGCCsGAQUFBwEDBGswaTA+BggrBgEFBQcLAjAyBgcEAIvsSQECMCeGJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjCCAVQGCCsGAQUFBwEBBIIBRjCCAUIwgcMGCCsGAQUFBzAChoG2bGRhcDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9DTj1QbyVjNSVhMXRhJTIwU3JiaWplJTIwQ0ElMjAxLE89SmF2bm8lMjBwcmVkdXplJWM0JTg3ZSUyMFBvJWM1JWExdGElMjBTcmJpamUsb3JnYW5pemF0aW9uSWRlbnRpZmllcj1WQVRSUy0xMDAwMDI4MDMsTD1CZW9ncmFkLEM9UlM/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnkwSwYIKwYBBQUHMAKGP2h0dHA6Ly9yZXBvc2l0b3J5LmNhLnBvc3RhLnJzL2NhLXNlcnRpZmlrYXRpL1Bvc3RhU3JiaWplQ0ExLmRlcjAtBggrBgEFBQcwAYYhaHR0cDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9vY3NwMIHQBgNVHSAEgcgwgcUwCQYHBACL7EABAzCBtwYMKwYBBAH6OAqGLAEAMIGmMDEGCCsGAQUFBwIBFiVodHRwczovL3d3dy5jYS5wb3N0YS5ycy9kb2t1bWVudGFjaWphMHEGCCsGAQUFBwICMGUMY092byBqZSBrdmFsaWZpa292YW5pIGVsZWt0cm9uc2tpIHNlcnRpZmlrYXQgemEgZWxla3Ryb25za2kgcGXEjWF0IHphIHZhbGlkYWNpanUgdnJlbWVuc2tpaCDFvmlnb3ZhLjAZBgNVHREEEjAQgQ50c2FAaXRlLmdvdi5yczArBgNVHRAEJDAigA8yMDIzMDQwNDEwMDUwNlqBDzIwMjQwNDA0MTAwNTA2WjANBgkqhkiG9w0BAQ0FAAOCAgEAGZvBQ//TUK5Cwc0B41ff2evZSdKrgHlOU7EIrqDW2G1iY012tWrFmHlVh8tHR2NtQV38eaTAIVo1ry4FFkyUNSgEm/swooVkThKbaJ8VC7J/2AAbwakzmvSRINKDLFlUzANtxUsRdSz1xrw6/SJBdJZi2ps3ANFCfQNeU9tg1osTnC3LLpBYD8oKGjlmKTRIyMDhj2PSttjEcFJlHVcIj0qsUVZPXR79oxqj0VohtxqAuF3fMnwxLROl+g7xK2z+5P1zX3jYsOYrFcu7XHOWkum6zQ3SuY33wQh2Jb74W3nV/vqUhE3eu7zGj1+2rLyDmQTSOpthaj0VJK4baxV2HZgEkpDqi2Ju8fHEvhuFkzCBD/obde3dZt4+sCp+9eqbI9gbKTxacIm3rAwZ8D94iauFpJjuFNIFw0RqJTex6x2FHQrrUo4+DsGltObt5iHPG4t8qqPhZs9zsEVB9pjCh16kjevrIldT9oldjtubqCeaWdO+QUQYhtFDke51oS5VgF99ZEJuEPMEfc8ZXUJCKmE6yKrLEVnNeq7wm7E1wAW3YDf2N9P69FYrRibRU+V+5NyO6hyEeaBLfsW5AEwfNa4xUiP/6hFVbVKkwW+Qrnx7Rn8o/19hY89j6M+DMpSbGBLVQy1Jm/PrBm4WqvEJiS7Izeuxi1NBGWNh0aopylw=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=RS-GOV TSA-2 200056848, SERIALNUMBER=CA:RS-200056848, O=Kancelarija za informacione tehnologije i elektronsku upravu, OID.2.5.4.97=VATRS-110177886, OID.2.5.4.97=MB:RS-18820803, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>S3r4EKXIG2YJdfThSInLrxg7hzs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2017-10-26T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -2617,7 +2777,75 @@
                         <StatusStartingTime>2022-04-28T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified validation of qualified electronic signatures and seals (2023-02-09)</Name>
+                            <Name xml:lang="sr-latn">Usluga validacije kvalifikovanog elektronskog potpisa i pečata (2023-02-09)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJODCCByCgAwIBAgIJEZVQDzSSDS3sMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDIwOTExMjE1MVoXDTI1MDIwOTExMjE1MVowggEbMQswCQYDVQQGEwJSUzEQMA4GA1UEBwwHQmVvZ3JhZDEXMBUGA1UEYQwOTUI6UlMtMjA3MDEyNDIxGDAWBgNVBGEMD1ZBVFJTLTEwNjg5MzAxODFOMEwGA1UECgxFSU5DRVBUSU9OIERSVcWgVFZPIFNBIE9HUkFOScSMRU5PTSBPREdPVk9STk/FoMSGVSBCRU9HUkFEIChWT8W9RE9WQUMpMRgwFgYDVQQFEw9DQTpSUy0yMDAwNTM5MjAxXTBbBgNVBAMMVElOQ0VQVElPTiBEUlXFoFRWTyBTQSBPR1JBTknEjEVOT00gT0RHT1ZPUk5PxaDEhlUgQkVPR1JBRCAoVk/FvURPVkFDKSBRU1ZBIDIwMDA1MzkyMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMt/PiuOUh+c3jYDUIHlcxnqXIo44UD8Qy+5KfqBcqB+dEZNC0WC85JfLkYVqoO6aid3O58o86wTpitTxW/fJn9wlgS74wf3rhUKcu5pxJUslQV/RRuKY/fD3ujPpZMcQBzDnKT+6IJk9t0YZTKA9dwoiE83K436DXSJgDwqok0mZiDWXswLI/m5AdJKEjMvY9YMp9lY22h6t//1lHjHMdziFuYFVuFS/+Cwi7xn4d94ryFLP2vnLNX8UEaL+KdiAnZFqaC6loSlGcDV25d067bGTFblZjLbrmwMNZwrDxWxic3j0sQBdOcj9d+XRRT2aSwBPsneTxOqmOAQ1xgdUTUCAwEAAaOCBBcwggQTMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMB8GA1UdIwQYMBaAFGPPd9m8CGVaUooX2h7XfVJyBaNHMB0GA1UdDgQWBBRzcLLJTPuWi/I/lGeEsE/WLHwM1jCCARIGA1UdHwSCAQkwggEFMIIBAaCB/qCB+4aBwmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5hjRodHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jcmwvUG9zdGFTcmJpamVDQTEuY3JsMHcGCCsGAQUFBwEDBGswaTA+BggrBgEFBQcLAjAyBgcEAIvsSQECMCeGJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjCCAVQGCCsGAQUFBwEBBIIBRjCCAUIwgcMGCCsGAQUFBzAChoG2bGRhcDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9DTj1QbyVjNSVhMXRhJTIwU3JiaWplJTIwQ0ElMjAxLE89SmF2bm8lMjBwcmVkdXplJWM0JTg3ZSUyMFBvJWM1JWExdGElMjBTcmJpamUsb3JnYW5pemF0aW9uSWRlbnRpZmllcj1WQVRSUy0xMDAwMDI4MDMsTD1CZW9ncmFkLEM9UlM/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnkwSwYIKwYBBQUHMAKGP2h0dHA6Ly9yZXBvc2l0b3J5LmNhLnBvc3RhLnJzL2NhLXNlcnRpZmlrYXRpL1Bvc3RhU3JiaWplQ0ExLmRlcjAtBggrBgEFBQcwAYYhaHR0cDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9vY3NwMIGuBgNVHSAEgaYwgaMwCQYHBACL7EABAzCBlQYLKwYBBAH6OAp2AQAwgYUwMQYIKwYBBQUHAgEWJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwUAYIKwYBBQUHAgIwRAxCT3ZvIGplIGt2YWxpZmlrb3ZhbmkgZWxla3Ryb25za2kgc2VydGlmaWthdCB6YSBlbGVrdHJvbnNraSBwZcSNYXQuMB4GA1UdEQQXMBWBE29mZmljZUBpbmNlcHRpb24ucnMwDQYJKoZIhvcNAQENBQADggIBAF1Cp//JkU2LYium5s5hxDph0tOsqkFohx+2fDQWTylM1cdYM5JdwSlzXggmYN4U0o28fRZkOTFO0tzSeECOjBSrm0BylqG3MruedVwKLTDA3npcF7GxuEmD+mEoITXYaDa/6TYarKdVSUHpLR11kB7s3lWkIyzpDalQgsspUdXk0nfQGKOT5uPC4xfzqHbBM+QvATS07tUfoLRAJeeztzgyYQtEBiUjsyCxE4WpPbdPVl72IyBsVT9ePnc5QCrIrloYKPTdH2N5F4Jqsm7CBxhC6vMkB/BTtuvDg6bHbCLzNFA1L4ApyS5XVOgcLUaUnPASIEzdbtxOaHUYnWQcaEVpYB3UEHkim5MIULP9hsCLrlR/bWkKbWNfnKNa1BLCPFFXg+gH638kZk8r+cSKJu8reunamtRRobCDSzdtUSMM4HyHMbZGtpALtmrLUa8sA29sbNo5RJU+Vg6Nl0Ulkwf+lCngei0gyCrqVOS5sUB+Z6pm7IMDZeIA033OziRIU0kERJeaAvrbDNAYrJvVZ7WdnyEHcSkZtNg2/bKxAmufgpuJkGeVwhhnjM9LUgDwByJ7eWGPlBZCjyvlbzdXPz/uRHEmngyU7qd1At417L74UHpMBlQzErm6uOAWXHd26r/5F/dcVON8i2ajZmv5TDitv2eIQBPfn8g45EbH/52C</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=INCEPTION DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU BEOGRAD (VOŽDOVAC) QSVA 200053920, SERIALNUMBER=CA:RS-200053920, O=INCEPTION DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU BEOGRAD (VOŽDOVAC), OID.2.5.4.97=VATRS-106893018, OID.2.5.4.97=MB:RS-20701242, L=Beograd, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>c3CyyUz7lovyP5RnhLBP1ix8DNY=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-03-14T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/PSES/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified preservation of qualified electronic signatures and seals (2023-02-09)</Name>
+                            <Name xml:lang="sr-latn">Usluga kvalifikovanog elektronskog čuvanja dokumenata (2023-02-09)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIJOzCCByOgAwIBAgIJRq+wn0UPnD0uMA0GCSqGSIb3DQEBDQUAMH8xCzAJBgNVBAYTAlJTMRAwDgYDVQQHDAdCZW9ncmFkMRgwFgYDVQRhDA9WQVRSUy0xMDAwMDI4MDMxJzAlBgNVBAoMHkphdm5vIHByZWR1emXEh2UgUG/FoXRhIFNyYmlqZTEbMBkGA1UEAwwSUG/FoXRhIFNyYmlqZSBDQSAxMB4XDTIzMDIwOTExMTQxNVoXDTI1MDIwOTExMTQxNVowggEeMQswCQYDVQQGEwJSUzEQMA4GA1UEBwwHQmVvZ3JhZDEXMBUGA1UEYQwOTUI6UlMtMjA3MDEyNDIxGDAWBgNVBGEMD1ZBVFJTLTEwNjg5MzAxODFOMEwGA1UECgxFSU5DRVBUSU9OIERSVcWgVFZPIFNBIE9HUkFOScSMRU5PTSBPREdPVk9STk/FoMSGVSBCRU9HUkFEIChWT8W9RE9WQUMpMRgwFgYDVQQFEw9DQTpSUy0yMDAwNTM5MTkxYDBeBgNVBAMMV0lOQ0VQVElPTiBEUlXFoFRWTyBTQSBPR1JBTknEjEVOT00gT0RHT1ZPUk5PxaDEhlUgQkVPR1JBRCAoVk/FvURPVkFDKSBBUkNISVZFIDIwMDA1MzkxOTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOnHwbMS/Q0v8GY95kKC//lxI6k0S3JWHthiugzjd1VcOeT2aK9e6ofqBsWdP17Lcu8MwMRo6OQkM13yhc2s4TfEwuTpwoaA2Re7BptIIuN7CS1nTQ7zkba82ThOTgQRFLlk/n561mkg9onMeOHyUwzurOfnlSLNqStk/h0TiZkDFcdkBZ9I4+wMG2ZFzhRYdfihmKVlnyutDmY85sl58dxn45yDSDqOcIJFcGbcV2EzQvsvXhEwEtBhrIcG1AOjUbHXwt90k2+qQQOYAWG2M9kYhQPp7L4wD6yKMglZQ5T5KiHIE9iMgJ+xKdcyUfji2m/sTEhXHcmGcgOGzvl5Ty0CAwEAAaOCBBcwggQTMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMB8GA1UdIwQYMBaAFGPPd9m8CGVaUooX2h7XfVJyBaNHMB0GA1UdDgQWBBRzyzEgqAmzsZ8crNyUD6W6VE0lFTCCARIGA1UdHwSCAQkwggEFMIIBAaCB/qCB+4aBwmxkYXA6Ly9sZGFwLW9jc3AuY2EucG9zdGEucnMvQ049UG8lYzUlYTF0YSUyMFNyYmlqZSUyMENBJTIwMSxPPUphdm5vJTIwcHJlZHV6ZSVjNCU4N2UlMjBQbyVjNSVhMXRhJTIwU3JiaWplLG9yZ2FuaXphdGlvbklkZW50aWZpZXI9VkFUUlMtMTAwMDAyODAzLEw9QmVvZ3JhZCxDPVJTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5hjRodHRwOi8vcmVwb3NpdG9yeS5jYS5wb3N0YS5ycy9jcmwvUG9zdGFTcmJpamVDQTEuY3JsMHcGCCsGAQUFBwEDBGswaTA+BggrBgEFBQcLAjAyBgcEAIvsSQECMCeGJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjCCAVQGCCsGAQUFBwEBBIIBRjCCAUIwgcMGCCsGAQUFBzAChoG2bGRhcDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9DTj1QbyVjNSVhMXRhJTIwU3JiaWplJTIwQ0ElMjAxLE89SmF2bm8lMjBwcmVkdXplJWM0JTg3ZSUyMFBvJWM1JWExdGElMjBTcmJpamUsb3JnYW5pemF0aW9uSWRlbnRpZmllcj1WQVRSUy0xMDAwMDI4MDMsTD1CZW9ncmFkLEM9UlM/Y0FDZXJ0aWZpY2F0ZTtiaW5hcnkwSwYIKwYBBQUHMAKGP2h0dHA6Ly9yZXBvc2l0b3J5LmNhLnBvc3RhLnJzL2NhLXNlcnRpZmlrYXRpL1Bvc3RhU3JiaWplQ0ExLmRlcjAtBggrBgEFBQcwAYYhaHR0cDovL2xkYXAtb2NzcC5jYS5wb3N0YS5ycy9vY3NwMIGuBgNVHSAEgaYwgaMwCQYHBACL7EABAzCBlQYLKwYBBAH6OAp2AQAwgYUwMQYIKwYBBQUHAgEWJWh0dHBzOi8vd3d3LmNhLnBvc3RhLnJzL2Rva3VtZW50YWNpamEwUAYIKwYBBQUHAgIwRAxCT3ZvIGplIGt2YWxpZmlrb3ZhbmkgZWxla3Ryb25za2kgc2VydGlmaWthdCB6YSBlbGVrdHJvbnNraSBwZcSNYXQuMB4GA1UdEQQXMBWBE29mZmljZUBpbmNlcHRpb24ucnMwDQYJKoZIhvcNAQENBQADggIBAIlBIZsLRewAb/gg16Uia/uRjyjDxhh44qTfK4rciOxQHlmk63x5NBynDKiF3tOHyHDsHj25p/YvjYvQjYxNJJqwccjq3SGfNcUA8lzUtienGXiqTsNy0ACvgqXONxboS9YDzFWwWCqyL8bqgiyL3ke9mp5tS7lOcMI/JSo+06I3bjUAG7HuHVpmmma0CFoVlQbr6HKFTpGmrQipgbkoWiR9Rlh/PkLR/JpzYt4dNDP+W9Deg2CYAVqnTdNqyUgfsgt7nCkhRHJzXVvHti7K9OuOOlUsfNDgDjJxxzAXXx8A1McoaS7yEyK4G0++kzTy2xRHzY8dYw+Qy1NkufRkpcURu/0Ek0ORkRCSp1X7MdLGU3AdeYCf2CzWLzVYW3UmvbL2KTmfqZn/13+MWdvN9KxNucCbHsRsB64Ht+VSOB172aaiZYejabvS40IF/9GKSsMa1geftxcibrKVOPpl63CkwyCBa5HIouYwSb0RuP2vuWU8UW6ga6zShY6CDclVaySn+yOq0JrQwv5UMMVrILb6mbpaePWFHqanpOGBbITGQKbOoAumtvBvZ2b/DJSzdDk2nScxzjmMeS3U0Z2LCCXzxEVEQ4xqivn6znFrY/VoMKRgWTrUROfLeKU1s81BEqVWbcyPo0r8oyf+OO8Qz4DKBR+iBfg6d2Odrpy424K/</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=INCEPTION DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU BEOGRAD (VOŽDOVAC) ARCHIVE 200053919, SERIALNUMBER=CA:RS-200053919, O=INCEPTION DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU BEOGRAD (VOŽDOVAC), OID.2.5.4.97=VATRS-106893018, OID.2.5.4.97=MB:RS-20701242, L=Beograd, C=RS</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>c8sxIKgJs7GfHKzclA+lulRNJRU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-03-14T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-bd80d93cc66013cac5ee89d6dc7b5293"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" Type="" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Xxayz22mLBxKNij467cHjXFFp1qYkgucibUYl78zbjg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-bd80d93cc66013cac5ee89d6dc7b5293"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>G1lt1f2xXpJQX9pa5rGIR0K0h/2CkZhe7q2jhCjOME0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-bd80d93cc66013cac5ee89d6dc7b5293">0PrJ+rvikzev9Bqnq0DKfqhrF8iYCsui4jtdtOXlWOPiXK1eVpTvC/m3M9Hb6BeR0obSjVLcW08OILw69LvUNYeG0bjsw0aIwCIRxVBSvCZB8ggkqjuNbaYuTO0/zAk8fCoGDQYWkQR4mEQ0CTW8Zf/DcVzSYdooqpVf8jtL1AYoUZ6jv7YusNWAUDqfFRFY6VLGCFpEtpHqU5Ca0XRH9uG6325Za2RZDVT2CmJ1I/CQQn0BfZ3mtgJ91MrOHaukl/ZQ/sg4vfe8aDcgWjKEJNZqRcRI8RXrzor7e2aOKhb7w5JK2GdmUc4S9L9pXEv7caJiWDUzdvYMOHYaA+28TQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEazCCA1OgAwIBAgIQRtVY0EJ0NIlDbUGMPbPMxDANBgkqhkiG9w0BAQ0FADCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwHhcNMjIxMjIwMDc0MzQ3WhcNMjUxMjIwMDc1MzQ2WjCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRFjByPYUnwoRIP9lmPmeaRx3TLeXlZMeJaKDBgnfbOqd4Ob74nJ99B+46LJNhNXUdGwSJw3LS0ry/9Ofn0Sup2vQ8Qx7umEHAosQsJqoyjVjovG88D32sSFpTl2tNXAkJlaRvPy/jQt7oQ1u3wjyEirtNwVpHr7HBkBtsnJImtH9swFeZPHzfoTIg7jiBzxR5UQNGoYu03g2SedXMj7R5K/RDx9eMYi0wz1ebbIHzwn/km29cnFmbqMJ6xsNz3MoucRDMOslqwE1kdz4OmAqrZq6TFBr2zUArnpqBdcAv1vTbzso2nWfvW7jb+xPnje+Qq3wJhSdFyqpTLMQfpt4FAgMBAAGjdTBzMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAnBgNVHREEIDAegRx1c2x1Z2VvZHBvdmVyZW5qYUBtaXQuZ292LnJzMB0GA1UdDgQWBBTUUBqOzwGPC7z+BsnH6IgVeNDeKzANBgkqhkiG9w0BAQ0FAAOCAQEAhBsfs3uUXQDQWFxu18xOh2SxAibrHBhlFjYerW/Gznjtx4tSkflZO7+ib+GEZqF2UUco/8r5/HEMtaHxTAq4xieBJ/SoR/aelN5oufGcLEzdc8PBnDFdqUDnkgpbUVgCDBZ7fehA8nt9G/BPUAJ7wB1P1EGnrNtJj4ZJsDIVpp2XNnoykKt23mOrfV+dmRgeE3N8m+OGnUIzzBbkGdJLfSsZnbweppg88Q6ZTVchi4dG11e91nPOQq/Fe/vziGAtBo3zvfgOvgZRHWcGbOdajqqXRC8h5cCrhro1DoEsdFulqjfDGZCrTYw5YNdumSMbzyH9zzusxB7t39eA9BKt0w==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-bd80d93cc66013cac5ee89d6dc7b5293"><xades:SignedProperties Id="xades-id-bd80d93cc66013cac5ee89d6dc7b5293"><xades:SignedSignatureProperties><xades:SigningTime>2022-12-29T10:25:31Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>ZxNmWAeYxkMKrRHopYqvGxG21GE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Serbian Trusted List Signer 1,O=Republic of Serbia\, Ministry of Information and Telecommunications,2.5.4.97=#0c0f56415452532d313133333434353633,2.5.4.97=#0c0e4d423a52532d3138383230373930,C=RS</ds:X509IssuerName><ds:X509SerialNumber>94153720287881447840526747236453043396</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-d3786d53a09f1f5c5e704bcc1c13cb53"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" Type="" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>HQSU/5+/HzGkvm4jAhOp06YdGwu1WAA8wkDiCdmhCDA=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d3786d53a09f1f5c5e704bcc1c13cb53"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>SvPBJ5f9e6InTjqq4c0JiA7iTJ10hbIGdVlABu24/JI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d3786d53a09f1f5c5e704bcc1c13cb53">FMhGAkEN9zkyexdXON9sPcsc413M+4RqzWpJ21aahYEm4npiEMcpJAcnCdPuMIrdeE9/Zle67nL1KEm2GG0xSvXbviCKZdCGBvzSjxf191RkVh7ulZ2dh3Y3kVfirg2+dfx7Z7qWOTIhM3KD5TxfOwluXwzbcap2hoOlbXVY6fS9tJFvoKYwXgeuyEg5RBNZmW4EzbgJd6AqIbj8hujkXX254vocc4+B5YJWW6A80nyyVEj1Pmkaf5Dz1xI94F/8TavMeUXIwU+Lt8w/uHX8BfpP1zGeVmYCOXxQ82KQNN79LMqJRmdf18yWLRr7XSwDaDKGiZtYJleZkAf2Bfp2hA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEazCCA1OgAwIBAgIQRtVY0EJ0NIlDbUGMPbPMxDANBgkqhkiG9w0BAQ0FADCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwHhcNMjIxMjIwMDc0MzQ3WhcNMjUxMjIwMDc1MzQ2WjCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRFjByPYUnwoRIP9lmPmeaRx3TLeXlZMeJaKDBgnfbOqd4Ob74nJ99B+46LJNhNXUdGwSJw3LS0ry/9Ofn0Sup2vQ8Qx7umEHAosQsJqoyjVjovG88D32sSFpTl2tNXAkJlaRvPy/jQt7oQ1u3wjyEirtNwVpHr7HBkBtsnJImtH9swFeZPHzfoTIg7jiBzxR5UQNGoYu03g2SedXMj7R5K/RDx9eMYi0wz1ebbIHzwn/km29cnFmbqMJ6xsNz3MoucRDMOslqwE1kdz4OmAqrZq6TFBr2zUArnpqBdcAv1vTbzso2nWfvW7jb+xPnje+Qq3wJhSdFyqpTLMQfpt4FAgMBAAGjdTBzMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAnBgNVHREEIDAegRx1c2x1Z2VvZHBvdmVyZW5qYUBtaXQuZ292LnJzMB0GA1UdDgQWBBTUUBqOzwGPC7z+BsnH6IgVeNDeKzANBgkqhkiG9w0BAQ0FAAOCAQEAhBsfs3uUXQDQWFxu18xOh2SxAibrHBhlFjYerW/Gznjtx4tSkflZO7+ib+GEZqF2UUco/8r5/HEMtaHxTAq4xieBJ/SoR/aelN5oufGcLEzdc8PBnDFdqUDnkgpbUVgCDBZ7fehA8nt9G/BPUAJ7wB1P1EGnrNtJj4ZJsDIVpp2XNnoykKt23mOrfV+dmRgeE3N8m+OGnUIzzBbkGdJLfSsZnbweppg88Q6ZTVchi4dG11e91nPOQq/Fe/vziGAtBo3zvfgOvgZRHWcGbOdajqqXRC8h5cCrhro1DoEsdFulqjfDGZCrTYw5YNdumSMbzyH9zzusxB7t39eA9BKt0w==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d3786d53a09f1f5c5e704bcc1c13cb53"><xades:SignedProperties Id="xades-id-d3786d53a09f1f5c5e704bcc1c13cb53"><xades:SignedSignatureProperties><xades:SigningTime>2023-08-29T12:12:49Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>ZxNmWAeYxkMKrRHopYqvGxG21GE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Serbian Trusted List Signer 1,O=Republic of Serbia\, Ministry of Information and Telecommunications,2.5.4.97=#0c0f56415452532d313133333434353633,2.5.4.97=#0c0e4d423a52532d3138383230373930,C=RS</ds:X509IssuerName><ds:X509SerialNumber>94153720287881447840526747236453043396</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

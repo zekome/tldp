@@ -16,11 +16,11 @@ Common files in repository:
 
 Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-usluge-povjerenja
 
-Date: 2023-08-31T01:00:00Z
+Date: 2023-12-14T02:00:00Z
 
-NextUpdate: 2024-02-29T00:00:00Z
+NextUpdate: 2024-06-13T23:00:00Z
 
-Sequence number: 12
+Sequence number: 13
 
 Status: Ok.
 

@@ -30,11 +30,11 @@ Status: Ok.
 
 Source: https://mit.gov.rs/TrustedList 
 
-Date: 2023-11-17T02:00:00Z
+Date: 2024-01-15T02:00:00Z
 
-NextUpdate: 2024-05-17T00:00:00Z
+NextUpdate: 2024-07-15T00:00:00Z
 
-Sequence number: 15
+Sequence number: 17
 
 Status: Ok.
 

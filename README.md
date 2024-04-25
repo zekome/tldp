@@ -26,11 +26,7 @@ Status: Ok.
 
 Source: https://mit.gov.rs/TrustedList 
 
-Date: 2024-01-15T02:00:00Z
-
-NextUpdate: 2024-07-15T00:00:00Z
-
-Sequence number: 17
+Sequence number: 19
 
 Status: Ok.
 

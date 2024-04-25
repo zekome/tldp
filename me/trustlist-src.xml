@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ME_TL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>14</TSLSequenceNumber>
+        <TSLSequenceNumber>15</TSLSequenceNumber>
         <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
         <SchemeOperatorName>
-            <Name xml:lang="sr">MINISTARSTVO JAVNE UPRAVE</Name>
-            <Name xml:lang="en">Ministry of Public administration</Name>
+            <Name xml:lang="en">Montenegro, Ministry of Public administration</Name>
+            <Name xml:lang="sr-latn">Crna Gora, Ministarstvo javne uprave</Name>
         </SchemeOperatorName>
         <SchemeOperatorAddress>
             <PostalAddresses>
-                <PostalAddress xml:lang="sr">
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>Rimski trg br. 45</StreetAddress>
+                    <Locality>Podgorica</Locality>
+                    <PostalCode>81000</PostalCode>
+                    <CountryName>ME</CountryName>
+                </PostalAddress>
+                <PostalAddress xml:lang="sr-latn">
                     <StreetAddress>Rimski trg br. 45</StreetAddress>
                     <Locality>Podgorica</Locality>
                     <PostalCode>81000</PostalCode>
@@ -18,14 +24,16 @@
             </PostalAddresses>
             <ElectronicAddress>
                 <URI xml:lang="en">https://www.gov.me/mju</URI>
+                <URI xml:lang="sr-latn">https://www.gov.me/mju</URI>
             </ElectronicAddress>
         </SchemeOperatorAddress>
         <SchemeName>
-            <Name xml:lang="sr">ME:Evidencija_i_registar_davalaca_elektronskih usluga_povjerenja_Crne_Gore</Name>
-            <Name xml:lang="en">ME:Montenegro_TrustList</Name>
+            <Name xml:lang="en">ME: The records of electronic trust service providers and The Register of qualified electronic trust service providers with the Law on electronic identification and electronic signature</Name>
+            <Name xml:lang="sr-latn">ME: Evidencija davalaca elektronskih usluga povjerenja i Registar kvalifikovanih davalaca elektronskih usluga povjerenja prema Zakonu o elektronskoj identifikaciji i elektronskom potpisu</Name>
         </SchemeName>
         <SchemeInformationURI>
             <URI xml:lang="en">https://www.gov.me/mju</URI>
+            <URI xml:lang="sr-latn">https://www.gov.me/mju</URI>
         </SchemeInformationURI>
         <StatusDeterminationApproach>http://tl.gov.me/mju/TrstSvc/TrustedList/StatusDetn/MEappropriate</StatusDeterminationApproach>
         <SchemeTypeCommunityRules>
@@ -34,25 +42,66 @@
         </SchemeTypeCommunityRules>
         <SchemeTerritory>ME</SchemeTerritory>
         <PolicyOrLegalNotice>
-            <TSLLegalNotice xml:lang="sr">Evidencija i registar davalaca elektronskih usluga povjerenja Crne Gore vodi se na osnovu Zakona o elektronskoj identifikaciji i elektronskom potpisu ("Službeni list CG", br. 31/2017 i 72/2019)</TSLLegalNotice>
             <TSLLegalNotice xml:lang="en">Records and register of providers of electronic trust services of Montenegro are kept on the basis of the Law on Electronic Identification and Electronic Signature ("The Official gazette of Montenegro", no. 31/2017 and 72/2019)</TSLLegalNotice>
+            <TSLLegalNotice xml:lang="sr-latn">Evidencija davalaca elektronskih usluga povjerenja i Registar kvalifikovanih davalaca elektronskih usluga povjerenja Crne Gore vodi se na osnovu Zakona o elektronskoj identifikaciji i elektronskom potpisu ("Službeni list CG", br. 31/2017 i 72/2019)</TSLLegalNotice>
         </PolicyOrLegalNotice>
         <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
-        <ListIssueDateTime>2024-03-19T02:00:00Z</ListIssueDateTime>
+        <PointersToOtherTSL>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>MIIEazCCA1OgAwIBAgIQRtVY0EJ0NIlDbUGMPbPMxDANBgkqhkiG9w0BAQ0FADCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwHhcNMjIxMjIwMDc0MzQ3WhcNMjUxMjIwMDc1MzQ2WjCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRFjByPYUnwoRIP9lmPmeaRx3TLeXlZMeJaKDBgnfbOqd4Ob74nJ99B+46LJNhNXUdGwSJw3LS0ry/9Ofn0Sup2vQ8Qx7umEHAosQsJqoyjVjovG88D32sSFpTl2tNXAkJlaRvPy/jQt7oQ1u3wjyEirtNwVpHr7HBkBtsnJImtH9swFeZPHzfoTIg7jiBzxR5UQNGoYu03g2SedXMj7R5K/RDx9eMYi0wz1ebbIHzwn/km29cnFmbqMJ6xsNz3MoucRDMOslqwE1kdz4OmAqrZq6TFBr2zUArnpqBdcAv1vTbzso2nWfvW7jb+xPnje+Qq3wJhSdFyqpTLMQfpt4FAgMBAAGjdTBzMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAnBgNVHREEIDAegRx1c2x1Z2VvZHBvdmVyZW5qYUBtaXQuZ292LnJzMB0GA1UdDgQWBBTUUBqOzwGPC7z+BsnH6IgVeNDeKzANBgkqhkiG9w0BAQ0FAAOCAQEAhBsfs3uUXQDQWFxu18xOh2SxAibrHBhlFjYerW/Gznjtx4tSkflZO7+ib+GEZqF2UUco/8r5/HEMtaHxTAq4xieBJ/SoR/aelN5oufGcLEzdc8PBnDFdqUDnkgpbUVgCDBZ7fehA8nt9G/BPUAJ7wB1P1EGnrNtJj4ZJsDIVpp2XNnoykKt23mOrfV+dmRgeE3N8m+OGnUIzzBbkGdJLfSsZnbweppg88Q6ZTVchi4dG11e91nPOQq/Fe/vziGAtBo3zvfgOvgZRHWcGbOdajqqXRC8h5cCrhro1DoEsdFulqjfDGZCrTYw5YNdumSMbzyH9zzusxB7t39eA9BKt0w==</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>MIIEazCCA1OgAwIBAgIQHmH8A65BnZRP/NlyRSjM8TANBgkqhkiG9w0BAQ0FADCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDIwHhcNMjIxMjIwMDc1NTM2WhcNMjYwMTIwMDgwNTM2WjCBtTELMAkGA1UEBhMCUlMxFzAVBgNVBGEMDk1COlJTLTE4ODIwNzkwMRgwFgYDVQRhDA9WQVRSUy0xMTMzNDQ1NjMxSzBJBgNVBAoMQlJlcHVibGljIG9mIFNlcmJpYSwgTWluaXN0cnkgb2YgSW5mb3JtYXRpb24gYW5kIFRlbGVjb21tdW5pY2F0aW9uczEmMCQGA1UEAwwdU2VyYmlhbiBUcnVzdGVkIExpc3QgU2lnbmVyIDIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOXb3SySh5kQrv6cnVGwy2o0ekTQM/2NnKtcraRftPyRYAOSEa9bPxu047t5o6xR9ZvSN18WwDkV/w4zNqMNGfK1k38lAXj89vNykkR1JwX7heMnO2BrWf70FN93ipm1B2DXSWSbo+JAV0/m7cBXf5VhxeA43KUHDPVz2s8iz+oyKt5zvdikFDja4PO4PKCWJmOfWj2Zs1PtuVjE8IZx8q8OBBbBrPiqENFFBvXLUUREfapWnyLjzUIdSmzuRKOcu7PM7PbnjKkwoRU74V2HrCjFtLMyf9BBUQAkDpZP6jMgBeZCfvWTsTtRLc4PVOcwjgK6rncxVQNF/g83YCARJFAgMBAAGjdTBzMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAnBgNVHREEIDAegRx1c2x1Z2VvZHBvdmVyZW5qYUBtaXQuZ292LnJzMB0GA1UdDgQWBBTDLkCZL2lkCuuzPXAhGEDMrb2IVjANBgkqhkiG9w0BAQ0FAAOCAQEAI3dS6vwSffHTD/9T/9iSLQFlnRQwDdFiyw30FQdkiep32i08hurTydyD/i0U2dySzIJGHNraaZfow0/1MeiWEqiHmOn73VqdJoqYVLqHlrg5jY2+dK1IWyrd1bt5OszSMTgQKJuV1Joj8AQmbGTQErL+/xJQcGNSgUL4ZaHL3kAbfJnUJGQ60ggfvnMuSggKxjm89fANASwK8LHP2n3zE6QURUZ8LRfH2qIgvW/ZGwYK2KXALQ0kAY34DWwGI32nblfX4CLij2/A/KPIxWxs8HQrfW5Wx/j/L/5YrQopxSDKz8sgvIA8LgIBuIztd4DjnTJwPzqjS3E+xAvXsIyZRw==</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                </ServiceDigitalIdentities>
+                <TSLLocation>https://www.mit.gov.rs/TrustedList/TSL-RS.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/RSlist</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>RS</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName>
+                            <Name xml:lang="en">Republic of Serbia, Ministry of Information and Telecommunications</Name>
+                        </SchemeOperatorName>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules>
+                            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/RS</URI>
+                        </SchemeTypeCommunityRules>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
+        </PointersToOtherTSL>
+        <ListIssueDateTime>2024-04-11T01:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-09-18T23:00:00Z</dateTime>
+            <dateTime>2024-10-10T23:00:00Z</dateTime>
         </NextUpdate>
+        <DistributionPoints>
+            <URI>https://tl.gov.me/ME_TL.xml</URI>
+        </DistributionPoints>
     </SchemeInformation>
     <TrustServiceProviderList>
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Ministarstvo unutrašnjih poslova</Name>
                     <Name xml:lang="en">Ministry of the Interior</Name>
+                    <Name xml:lang="sr-latn">Ministarstvo unutrašnjih poslova</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Ministarstvo unutrašnjih poslova</Name>
                     <Name xml:lang="en">Ministry of the Interior</Name>
+                    <Name xml:lang="sr-latn">Ministarstvo unutrašnjih poslova</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -62,13 +111,21 @@
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
+                        <PostalAddress xml:lang="sr-latn">
+                            <StreetAddress>Bulevar Svetog Petra Cetinjskog 22</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
                         <URI xml:lang="en">https://mup.gov.me</URI>
+                        <URI xml:lang="sr-latn">https://mup.gov.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
                     <URI xml:lang="en">https://mup.gov.me/</URI>
+                    <URI xml:lang="sr-latn">https://mup.gov.me/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -77,7 +134,7 @@
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
                             <Name xml:lang="en">MNE eID Root CA</Name>
-                            <Name xml:lang="sr">MNE eID Root CA</Name>
+                            <Name xml:lang="sr-latn">MNE eID Root CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -105,8 +162,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">MNE eID CA1 Certifikat za kvalifikovani elektronski potpis</Name>
                             <Name xml:lang="en">MNE eID CA1 Certificate for qualified electronic signature</Name>
+                            <Name xml:lang="sr-latn">MNE eID CA1 Certifikat za kvalifikovani elektronski potpis</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -134,8 +191,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">MNE eID CA1 Certifikat za elektronsku identifikaciju</Name>
                             <Name xml:lang="en">MNE eID CA1 Certificate for authentication</Name>
+                            <Name xml:lang="sr-latn">MNE eID CA1 Certifikat za elektronsku identifikaciju</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -157,24 +214,24 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Pošta Crne Gore AD Podgorica</Name>
                     <Name xml:lang="en">Post Montenegro Podgorica</Name>
+                    <Name xml:lang="sr-latn">Pošta Crne Gore AD Podgorica</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">PostaCG</Name>
                     <Name xml:lang="en">PostaCG</Name>
-                    <Name xml:lang="sr">POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA</Name>
+                    <Name xml:lang="sr-latn">PostaCG</Name>
                     <Name xml:lang="en">POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA</Name>
+                    <Name xml:lang="sr-latn">POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Ul. Slobode 1</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Ul. Slobode 1</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
@@ -182,13 +239,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="sr">mailto:info@postacg.me</URI>
                         <URI xml:lang="en">mailto:info@postacg.me</URI>
+                        <URI xml:lang="sr-latn">mailto:info@postacg.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
                     <URI xml:lang="en">http://www.postacg-ca.me/</URI>
-                    <URI xml:lang="sr">http://www.postacg-ca.me/</URI>
+                    <URI xml:lang="sr-latn">http://www.postacg-ca.me/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -196,8 +253,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski potpis / elektronski pečat / autentifikacija internet stranica Posta CG-CA</Name>
                             <Name xml:lang="en">Electronic signature / electronic seal / website authentication Posta CG-CA</Name>
+                            <Name xml:lang="sr-latn">Elektronski potpis / elektronski pečat / autentifikacija internet stranica Posta CG-CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -235,8 +292,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01</Name>
                             <Name xml:lang="en">Electronic timestamp TSU01</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU01</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -257,8 +314,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU02</Name>
                             <Name xml:lang="en">Electronic timestamp TSU02</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU02</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -279,8 +336,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronska preporučena dostava ER pismo</Name>
                             <Name xml:lang="en">Electronic delivery service ER pismo</Name>
+                            <Name xml:lang="sr-latn">Elektronska preporučena dostava ER pismo</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -300,8 +357,8 @@
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
                             <ServiceName>
-<Name xml:lang="sr">Elektronska preporučena dostava ER pismo</Name>
 <Name xml:lang="en">Electronic delivery service ER pismo</Name>
+<Name xml:lang="sr-latn">Elektronska preporučena dostava ER pismo</Name>
                             </ServiceName>
                             <ServiceDigitalIdentity>
 <DigitalId>
@@ -320,8 +377,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Usluga elektronske preporučene dostave</Name>
                             <Name xml:lang="en">Electronic delivery service</Name>
+                            <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -341,8 +398,8 @@
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                             <ServiceName>
-<Name xml:lang="sr">Usluga elektronske preporučene dostave</Name>
 <Name xml:lang="en">Electronic delivery service</Name>
+<Name xml:lang="sr-latn">Usluga elektronske preporučene dostave</Name>
                             </ServiceName>
                             <ServiceDigitalIdentity>
 <DigitalId>
@@ -361,8 +418,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01-2021</Name>
                             <Name xml:lang="en">Electronic timestamp TSU01-2021</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU01-2021</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -376,15 +433,15 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-02-22T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2023-02-12T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU02-2021</Name>
-                            <Name xml:lang="en">Electronic timestamp TSU02-2021</Name>
+                            <Name xml:lang="en">Electronic timestemp TSU02-2021</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU02-2021</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -398,15 +455,15 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-02-22T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2023-02-12T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronska preporučena dostava ER pismo - 2023</Name>
                             <Name xml:lang="en">Electronic delivery service ER pismo - 2023</Name>
+                            <Name xml:lang="sr-latn">Elektronska preporučena dostava ER pismo - 2023</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -427,8 +484,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Usluga elektronske preporučene dostave - 2023</Name>
                             <Name xml:lang="en">Electronic delivery service - 2023</Name>
+                            <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave - 2023</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -449,8 +506,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01-2023</Name>
                             <Name xml:lang="en">Electronic timestamp TSU01-2023</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU01-2023</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -471,8 +528,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU02-2023</Name>
                             <Name xml:lang="en">Electronic timestamp TSU02-2023</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU02-2023</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -494,22 +551,22 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Coreit doo Podgorica</Name>
                     <Name xml:lang="en">Coreit doo Podgorica</Name>
+                    <Name xml:lang="sr-latn">Coreit doo Podgorica</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Coreit</Name>
                     <Name xml:lang="en">Coreit</Name>
+                    <Name xml:lang="sr-latn">Coreit</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Bulevar Džordža Vašingtona 98/3</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Bulevar Džordža Vašingtona 98/3</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
@@ -517,13 +574,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="sr">mailto:info@ca.coreit.me</URI>
                         <URI xml:lang="en">mailto:info@ca.coreit.me</URI>
+                        <URI xml:lang="sr-latn">mailto:info@ca.coreit.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="sr">http://ca.coreit.me</URI>
                     <URI xml:lang="en">http://ca.coreit.me</URI>
+                    <URI xml:lang="sr-latn">http://ca.coreit.me</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -531,8 +588,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Coreit Root CA</Name>
                             <Name xml:lang="en">Coreit Root CA</Name>
+                            <Name xml:lang="sr-latn">Coreit Root CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -570,8 +627,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Coreit Sub CA</Name>
                             <Name xml:lang="en">Coreit Sub CA</Name>
+                            <Name xml:lang="sr-latn">Coreit Sub CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -604,8 +661,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01</Name>
                             <Name xml:lang="en">Electronic timestamp TSU01</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU01</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -626,8 +683,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01-2024</Name>
                             <Name xml:lang="en">Electronic timestamp TSU01-2024</Name>
+                            <Name xml:lang="sr-latn">Elektronski vremenski pečat TSU01-2024</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -644,27 +701,61 @@
                         <StatusStartingTime>2024-03-18T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CoreVerify - Qualified validation service for qualified electronic signature and qualified electronic seal</Name>
+                            <Name xml:lang="sr-latn">CoreVerify - Kvalifikovana usluga verifikacije kvalifikovanih elektronskih potpisa i kvalifikovanih elektronskih pečata</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFkDCCA/igAwIBAgIIWBxIdUj3e6AwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFjAUBgNVBAMMDUNvcmVpdCBTdWIgQ0EwHhcNMjQwMzA0MTQyMTE1WhcNMjcwMzA0MTQyMTE1WjCBizELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNPUkVJVDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxEzARBgNVBAsMCkNvcmVWZXJpZnkxEzARBgNVBAUTCjExMDAzMjE0NjYxKDAmBgNVBAMMH0NPUkVJVCAoUGXEjWF0L0F1dGVudGlmaWthY2lqYSkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/86TmHhfbk46vxkPGcRLOJpWXraGFjSWnEBsfhmbpThqkYhh7EbL+Vn5cEJ86faWXxnCzhEO8czwf74zW3KX2JHcWwnEVTAN9gVN9iYYUtsYyUfWcSyGdztC9XnwgmCn6Z2lT5zbND8i4VlGc9oNj8gtOiyxiG+AmIyrKTWJieAzc+WGkNK896cuVbbuIHGIh782UT3M1S2N1bjKU7WpOFuZ8US5xM8Ik7LzVRECyBbcr86bINura2C178G8jGo/wg/ENTUFy28geyItmd9GsVMVTsLCgkBJEMahcPNdUdkr+c29hOPE0Sb2X36Xm6ofF7th8emxRfICiwae3XTd5AgMBAAGjggGxMIIBrTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFLfF/OeJ8k67rUbH9CTANLzC1T+MHEGCCsGAQUFBwEBBGUwYzAvBggrBgEFBQcwAoYjaHR0cDovL2NhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQS5jZXIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9vY3NwLmNhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQTBCBgNVHSAEOzA5MDcGDSsGAQQBg6MpAQECAgEwJjAkBggrBgEFBQcCARYYaHR0cDovL2NhLmNvcmVpdC5tZS9jcHMvMFwGCCsGAQUFBwEDBFAwTjAIBgYEAI5GAQEwEwYGBACORgEGMAkGBwQAjkYBBgIwLQYGBACORgEFMCMwIRYbaHR0cHM6Ly9jYS5jb3JlaXQubWUvcGRzL2VuEwJlbjA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vY3JsLmNhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQS5jcmwwHQYDVR0OBBYEFAmofn6xaorxmoYjuKfylAPtND/PMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAYEAo4VzGHYubwQZLTHF60WsWNIMzlUC83aPgmUQCfzAQP/absRxmVimr5zFWB+CVwyedanYK7zyvs2/Qdw2Vzl4377QVHronJmbp2E8nPVk91opoLHDHNeJf1TJaMWg2l8IYV3c4ANQ/QBscUFIY+g5IDjK7Gw3FM/fnhhEis3/MC1DAujWKwzPxdq/okVIgNvMbRwEEorcE0V0bEE/ycOC+fz/aCsDJhZlvhBFfAGqKwg0zXNPdNbMDqQnKodhZI1j78bD6m7PkXx22lf5MeoSZhX8z+/7dvrVeIPErHMr1CyGpOqBluFfYQPrbZ1ph5d0SYlcDZMdKjRySuw0NPAR56Swdde0fugJUUwS9f/F0VekHw8YWsAc4KYLn8KSNQprI9/bXtHH7wL2/eJ2a9Sdlz2/E1AgpDfjwUHJVv920S6BNzvb0V009psOesqyDT8sJ5/ZKb5RMaXj/gIN27sYuRMQ00AwZPWKHdWoupU5aGm5dpYWlVkdOqBPIrFGKzc3</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=COREIT (Pečat/Autentifikacija), SERIALNUMBER=1100321466, OU=CoreVerify, OID.2.5.4.97=VATME-02775018, O=COREIT, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Cah+frFqivGahiO4p/KUA+00P88=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-04-08T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Crnogorski Telekom A.D. Podgorica</Name>
                     <Name xml:lang="en">Crnogorski Telekom A.D. Podgorica</Name>
+                    <Name xml:lang="sr-latn">Crnogorski Telekom A.D. Podgorica</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Crnogorski Telekom A.D. Podgorica</Name>
                     <Name xml:lang="en">Crnogorski Telekom A.D. Podgorica</Name>
+                    <Name xml:lang="sr-latn">Crnogorski Telekom A.D. Podgorica</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Moskovska 29</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Moskovska 29</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
@@ -672,13 +763,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="sr">mailto:office@telekom.me</URI>
                         <URI xml:lang="en">mailto:office@telekom.me</URI>
+                        <URI xml:lang="sr-latn">mailto:office@telekom.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="sr">http://www.telekom.me/ctrust</URI>
                     <URI xml:lang="en">http://www.telekom.me/ctrust</URI>
+                    <URI xml:lang="sr-latn">http://www.telekom.me/ctrust</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -686,8 +777,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust Root CA</Name>
                             <Name xml:lang="en">CTrust Root CA</Name>
+                            <Name xml:lang="sr-latn">CTrust Root CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -725,8 +816,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust GP CA</Name>
                             <Name xml:lang="en">CTrust GP CA</Name>
+                            <Name xml:lang="sr-latn">CTrust GP CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -759,8 +850,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust RP CA</Name>
                             <Name xml:lang="en">CTrust RP CA</Name>
+                            <Name xml:lang="sr-latn">CTrust RP CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -832,8 +923,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust QTSA TSU01</Name>
                             <Name xml:lang="en">CTrust QTSA TSU01</Name>
+                            <Name xml:lang="sr-latn">CTrust QTSA TSU01</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -854,8 +945,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust QSVA SVU01</Name>
                             <Name xml:lang="en">CTrust QSVA SVU01</Name>
+                            <Name xml:lang="sr-latn">CTrust QSVA SVU01</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -888,8 +979,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust eDelivery</Name>
                             <Name xml:lang="en">CTrust eDelivery</Name>
+                            <Name xml:lang="sr-latn">CTrust eDelivery</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -910,8 +1001,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CTrust QTSA TSU01-2023</Name>
                             <Name xml:lang="en">CTrust QTSA TSU01-2023</Name>
+                            <Name xml:lang="sr-latn">CTrust QTSA TSU01-2023</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -925,7 +1016,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-05-15T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2023-05-18T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -933,24 +1024,24 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Ministarstvo javne uprave</Name>
-                    <Name xml:lang="en">Ministarstvo javne uprave</Name>
+                    <Name xml:lang="en">Ministry of Public Administration</Name>
+                    <Name xml:lang="sr-latn">Ministarstvo javne uprave</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Ministarstvo javne uprave</Name>
-                    <Name xml:lang="en">Ministarstvo javne uprave</Name>
-                    <Name xml:lang="sr">GOV</Name>
+                    <Name xml:lang="en">Ministry of Public Administration</Name>
+                    <Name xml:lang="sr-latn">Ministarstvo javne uprave</Name>
                     <Name xml:lang="en">GOV</Name>
+                    <Name xml:lang="sr-latn">GOV</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Rimski trg 45</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Rimski trg 45</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
@@ -959,12 +1050,12 @@
                     </PostalAddresses>
                     <ElectronicAddress>
                         <URI xml:lang="en">mailto:pma@pki.gov.me</URI>
-                        <URI xml:lang="sr">mailto:pma@pki.gov.me</URI>
+                        <URI xml:lang="sr-latn">mailto:pma@pki.gov.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="sr">http://www.pki.gov.me/</URI>
                     <URI xml:lang="en">http://www.pki.gov.me/</URI>
+                    <URI xml:lang="sr-latn">http://www.pki.gov.me/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -972,8 +1063,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">GOV CA</Name>
                             <Name xml:lang="en">GOV CA</Name>
+                            <Name xml:lang="sr-latn">GOV CA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1002,23 +1093,23 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">ZEKO.ME D.O.O.</Name>
                     <Name xml:lang="en">ZEKO.ME D.O.O.</Name>
+                    <Name xml:lang="sr-latn">ZEKO.ME D.O.O.</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">ZEKO.ME D.O.O.</Name>
                     <Name xml:lang="en">ZEKO.ME D.O.O.</Name>
+                    <Name xml:lang="sr-latn">ZEKO.ME D.O.O.</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Moskovska 127</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <StateOrProvince>Podgorica</StateOrProvince>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Moskovska 127</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <StateOrProvince>Podgorica</StateOrProvince>
@@ -1027,13 +1118,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="sr">mailto:info@zeko.me</URI>
                         <URI xml:lang="en">mailto:info@zeko.me</URI>
+                        <URI xml:lang="sr-latn">mailto:info@zeko.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="sr">https://knjiga.edostava.me/</URI>
-                    <URI xml:lang="en">https://book.edostava.me/</URI>
+                    <URI xml:lang="en">https://knjiga.edostava.me/</URI>
+                    <URI xml:lang="sr-latn">https://book.edostava.me/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -1041,8 +1132,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Usluga elektronske preporučene dostave - eDostava</Name>
-                            <Name xml:lang="en">Electronic registered delivery service - eDostava</Name>
+                            <Name xml:lang="en">Electronic registrered delivery service - eDostava</Name>
+                            <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave - eDostava</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1063,8 +1154,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Usluga elektronske preporučene dostave - eDostava - 2024</Name>
                             <Name xml:lang="en">Electronic registered delivery service - e Dostava - 2024</Name>
+                            <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave - eDostava - 2024</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1086,22 +1177,22 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="sr">Centralna banka Crne Gore</Name>
                     <Name xml:lang="en">Central bank of Montenegro</Name>
+                    <Name xml:lang="sr-latn">Centralna banka Crne Gore</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="sr">Centralna banka Crne Gore</Name>
                     <Name xml:lang="en">Central bank of Montenegro</Name>
+                    <Name xml:lang="sr-latn">Centralna banka Crne Gore</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
-                        <PostalAddress xml:lang="sr">
+                        <PostalAddress xml:lang="en">
                             <StreetAddress>Bulevar Svetog Petra Cetinjskog br.6</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
                             <CountryName>ME</CountryName>
                         </PostalAddress>
-                        <PostalAddress xml:lang="en">
+                        <PostalAddress xml:lang="sr-latn">
                             <StreetAddress>Bulevar Svetog Petra Cetinjskog br.6</StreetAddress>
                             <Locality>Podgorica</Locality>
                             <PostalCode>81000</PostalCode>
@@ -1109,13 +1200,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="sr">mailto:cbcg-ca@cbcg.me</URI>
                         <URI xml:lang="en">mailto:cbcg-ca@cbcg.me</URI>
+                        <URI xml:lang="sr-latn">mailto:cbcg-ca@cbcg.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="sr">https://www.cbcg.me</URI>
                     <URI xml:lang="en">https://www.cbcg.me</URI>
+                    <URI xml:lang="sr-latn">https://www.cbcg.me</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -1123,8 +1214,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">Root_CA_Centralna_Banka_CG</Name>
-                            <Name xml:lang="en">Root_CA_Centralna_Banka_CG</Name>
+                            <Name xml:lang="en">Root_CA_Central_Bank_MNE</Name>
+                            <Name xml:lang="sr-latn">Root_CA_Centralna_Banka_CG</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1152,8 +1243,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="sr">CA_Centralna_Banka_CG</Name>
                             <Name xml:lang="en">CA_Central_Bank_MNE</Name>
+                            <Name xml:lang="sr-latn">CA_Centralna_Banka_CG</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1180,4 +1271,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-102e1b95e14d3690f7679f9f69250ac4"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>edAYYYm47ekcuf89hB2xtt+F+72e8s19TN5g275nFm8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-102e1b95e14d3690f7679f9f69250ac4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qRd7IOF/qrE9F/amWuDDVFuZJ/TnbUTtvI1rYJ9Oc3U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-102e1b95e14d3690f7679f9f69250ac4">es76fNsKAEOh9t72ua3pG2nyEN/OE+LNKPLZdkKR2tdl9tEsvMo61D9dP2o9scprV24vIxh8RM7cJ1z+HaV8u7XY39Xn0le8JYt5aTCaZ3+JwvcWfnA991FvJnjZp4jXQCrtK1OZBTFZZlLvMt0L8g67S6g55ad1PGswreBmoQZdS+ORxj07xIBzWYwGgojMiMGYOBIWBKVi7q4pz8YwY2a1ZySD+yi2hKAXd1J0AFA0cGmw5bYZjcKpNwzVoAdxxuuBu8ndKsUqST69aJ4Fat9/diw7fkxkPXWKuLhzukukG6WOXKCeMsHCPTWbWOx6OEXLpqQMcGS1gq5bZggZqw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-102e1b95e14d3690f7679f9f69250ac4"><xades:SignedProperties Id="xades-id-102e1b95e14d3690f7679f9f69250ac4"><xades:SignedSignatureProperties><xades:SigningTime>2024-03-20T09:27:04Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>y8yO3hXdnHLJK2pCxk3XDzJ/XTUhmiohtXzuJFYTC7vapnTsMTDeaAI9hlGUdmDmwOguNzhl/7KZM5b1sC4yew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-b8e49c3062e0e69e208347ad45bd5017"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jVCXnAFRX3/oR42HboqBngW4bHAx7fZAUJ5CiAtbMkw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-b8e49c3062e0e69e208347ad45bd5017"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jmXD9fKE+eekOfWuratl4LuCQhpa7XCJpHZbP6GarEw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-b8e49c3062e0e69e208347ad45bd5017">ps8r0zjq6+374ylWqMKhTBQL9ExnHtLc3JK0b/JkyMV/Mw/XR1sU2qnv8sykd1RJeT5juvHxXWmpK4/tKaiV+pMb7zoEISqzi4pL/33ScFuQWMPhLCxJGrQf8dVsxxvLEjmRjD7uvpuZZ1dJ9n/hBWq0XVDPi7ufBk5Dw3UzlHDMn3FghnEe4tdeqQ9JSFBoqfPcGb/d9bhO2z7e4LcZrge0MF/4cQg2cKWRMAsIVKEKZljXkaI1YBQteZwOP7jX1KfUIn1XT4KFcd/gBmNTzPOhHvrSdC5SPVpuPwrR9tkDTCi6SmTo9PNmgEUez9HD4olv82/QWeQunoA1dgcPKw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-b8e49c3062e0e69e208347ad45bd5017"><xades:SignedProperties Id="xades-id-b8e49c3062e0e69e208347ad45bd5017"><xades:SignedSignatureProperties><xades:SigningTime>2024-04-11T11:58:53Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>2RsPxdsF5CYrawXQ9igPSfpBO6M=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

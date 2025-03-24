@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ME_TL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>17</TSLSequenceNumber>
+        <TSLSequenceNumber>18</TSLSequenceNumber>
         <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Montenegro, Ministry of Public administration</Name>
@@ -84,9 +84,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-02-20T02:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-03-17T02:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-08-19T23:00:00Z</dateTime>
+            <dateTime>2025-09-16T23:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tl.gov.me/ME_TL.xml</URI>
@@ -1059,13 +1059,13 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="en">mailto:pma@pki.gov.me</URI>
-                        <URI xml:lang="sr-latn">mailto:pma@pki.gov.me</URI>
+                        <URI xml:lang="en">mailto:ca@mju.gov.me</URI>
+                        <URI xml:lang="sr-latn">mailto:ca@mju.gov.me</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="en">http://www.pki.gov.me/</URI>
-                    <URI xml:lang="sr-latn">http://www.pki.gov.me/</URI>
+                    <URI xml:lang="en">http://gov.me/mju/ca</URI>
+                    <URI xml:lang="sr-latn">http://gov.me/mju/ca</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -1087,8 +1087,8 @@
 <X509SKI>qS9x7g80sQddiS4zR9eBdyo9YLg=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2008-12-31T23:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -1096,6 +1096,179 @@
 </AdditionalServiceInformation>
                             </Extension>
                         </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GovME Root CA</Name>
+                            <Name xml:lang="sr-latn">GovME Root CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEqzCCAxOgAwIBAgIIUQbSgud/bGEwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCTUUxIjAgBgNVBAoMGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFzAVBgNVBGEMDlZBVE1FLTExMDcwMDQzMRYwFAYDVQQDDA1Hb3ZNRSBSb290IENBMCAXDTIzMTIxODExNTcxN1oYDzIwNTQwMzEwMTE1NzE2WjBiMQswCQYDVQQGEwJNRTEiMCAGA1UECgwZTWluaXN0YXJzdHZvIGphdm5lIHVwcmF2ZTEXMBUGA1UEYQwOVkFUTUUtMTEwNzAwNDMxFjAUBgNVBAMMDUdvdk1FIFJvb3QgQ0EwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDEWOShC5gHVutvxxOKt4ic7zNghsVmJFLmO9F206uoNYOM5LQLRQGEZNYjcnQU3HMzajAVsoS8osbEymeAbmy1v3xYqcjKS9Tpsd0Gmo7QGuqt7txfV1Rc2J4vrgrWWoeVaa0sX4ncXlAqXmpfGrImWjh7/eD8XnLhhqwQs8rq9OQ/bKXLvhrUjSbQGanp89poqhusqPt/4OxzT+ePuEeFyiTfhdkOOyh/HKgWtkgpGwy6cPvGBZohPtLf6XZrlUE9HIgOHEUUK346dI5qxCMKPxqiEQ35Z0qULhVLHkFJqCPWK4smkbJbWR1WpxR8l+G4Q9WK2l5a5kvlvZz3Y4lILDyYDxIdbNWEHE7hGEweyIawh9rC8Cn5rkjsBM5pdZkG3rFs7YfnWFsd+3LaOKhhiG3PQEaEhi8NtzRvKj8uczQZpNhnmxsTnxyNtYbrEuVeL2uOZ1Zv7m5j42aIXxVM3dmTucywaAfoHJMuqZr04c57QTWRAPaQdurwIogBrP0CAwEAAaNjMGEwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBTgWJn4hfrIZs4jhP6OEALLlu4T1jAdBgNVHQ4EFgQU4FiZ+IX6yGbOI4T+jhACy5buE9YwDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3DQEBCwUAA4IBgQAiXRHMcHQy3DnaKiLho0yUQXofj4LAp29MHAZEU46SEH6qb9FlDqcYRkobzMPzh2vZ7BhgTQ0iIJTMampImyAtgDXtysPdlyLHMtPOOyryuPbodzAyI+4vXzZIwmA2AxXc5DVhFj1EESJy9KHHiDSXtUZwgX3uWku218rL8+Drci5BsuxmCyv707X32YTwZI0szOGxoHIyesgIPbTUT2fHi+DlRo3XMGpGR4ZIraCOhdLeyMpSW2ArmxH/7/cfOJNlPpuk6PbsxcvfeNcH5JHUXNBPHLlf5sEZsrt3ib4WSXXN/AYHlUl1lDZ389/61zq+zubwonwoh25eMY8YPxANgCgZE6T+1f4Xal6WAYwNN7la/VZ6huZKaFhjxMUAvZVPRRjWblc1WUqjKpyC4wY3+LX6voETezqERqLCNVGRssjb+RkiG1CoTqkA9mP5cRl3vuTcFxEM1fv1/dPiCnXVeAAzamwCmoBpBA87YSaXJxUX4vig1ltxbbN7nmjyTrg=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GovME Root CA, OID.2.5.4.97=VATME-11070043, O=Ministarstvo javne uprave, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4FiZ+IX6yGbOI4T+jhACy5buE9Y=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GovME Sub CA</Name>
+                            <Name xml:lang="sr-latn">GovME Sub CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFkDCCA/igAwIBAgIIKi52SvuSt8owDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCTUUxIjAgBgNVBAoMGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFzAVBgNVBGEMDlZBVE1FLTExMDcwMDQzMRYwFAYDVQQDDA1Hb3ZNRSBSb290IENBMB4XDTIzMTIxODEyMjczOVoXDTQ5MDMxMTEyMjczOFowYTELMAkGA1UEBhMCTUUxIjAgBgNVBAoMGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFzAVBgNVBGEMDlZBVE1FLTExMDcwMDQzMRUwEwYDVQQDDAxHb3ZNRSBTdWIgQ0EwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCo+hhCv5gESXYWCVx0V6M6RSjNZsPTLgsjKyTlAX9yjS7M/WiTgKZjx3U3YlT70G4Fdnzr2V5EfrRrK2kLk3OzQm8rAqQRfeTVY2hND/hJ3+k/eC+nChkyVbprku6aZAnZzXDRGcAqdIq/znYd9gLQs8l8whdpdYEd98YggbMvX2IUbLaSOqAGwmBne1M7ALOjQQsfj+0OnvN4WCLJXBHfnDvCKxpSLuq2sL5upEl/RwH3Vh4YhJ2igRF/IMNJYShxQPBkK7bs/p4GiyuzU/703mMQnr+r+eGo4DPwq/jpGlVtaNIBblE2dWqi24FAuWBzw9rCzcrxNJYBugfAFchTGQTWMsJBAujVVArOI7A+n5H6Qo50gHYosHrZVo5hzUIzNlNcMNsUwBbxyMEaufO3n48Ia63ijlpxPaTt4fQ+dsEh4Tcz8/XXyWsAcgnvcpFfCLgYkC5jcl1ykwsRlOHc21r2MZZ+YQm5/mkb+ExJZAZ3WFMcd7eQGWrQdEcB84ECAwEAAaOCAUkwggFFMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAU4FiZ+IX6yGbOI4T+jhACy5buE9YwbwYIKwYBBQUHAQEEYzBhMDAGCCsGAQUFBzAChiRodHRwOi8vZG9jLmNhLmdvdi5tZS9Hb3ZNRVJvb3RDQS5jZXIwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwLmNhLmdvdi5tZS9Hb3ZNRVJvb3RDQTA6BgNVHSAEMzAxMC8GBFUdIAAwJzAlBggrBgEFBQcCARYZaHR0cDovL2RvYy5jYS5nb3YubWUvY3BzLzA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vY3JsLmNhLmdvdi5tZS9Hb3ZNRVJvb3RDQS5jcmwwHQYDVR0OBBYEFBPLBuJDpFEHusopIRowmZ957degMA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAYEAisa1gytcntU4KqABht+X44xnalxT258QfChgElWpD0jcMoxdH4QlhMYD4+My8mk/fRqKWGOBjzcGbn8BtUUqNhnl4KyhDnINRmRCqCLNmQupwV3r0D14Uo3xohUh2uAEyGsJsk20z5C/37l6UafT1r+bTeoYuy4t2k9S5NnOGGEYkDW0rjq9sxN37eLqSX/HN6qFtTrGwG+OI/SOBImgmFZ3P3tewT+hdwpCtWHLR+uDRFhI83jx88HlyeABBhXzx1YJC5OkMz6/QyYKvyF0w8z+nWSNQcPnybMOKKjSQTcVGR7evrTvOCEhjyZUCAY2hBRheLHj73Yt2ttRpFIU0ho2H8LdoCW+NZ/IjyKRp7gbWm4mrbTIa4XujCGJ7jjb6+Cu9QXXI19+BMYgxVKZqUq+81UnR8yJEJpSOeqqgClgJSdKhz0bMUa6xZBU+V8uOTXy6aj36fMVusXcEqiNiZk0rHJL5eFhUovNLvNeF0oEpCy7OLZD6t3zVamVfiA6</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GovME Sub CA, OID.2.5.4.97=VATME-11070043, O=Ministarstvo javne uprave, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>E8sG4kOkUQe6yikhGjCZn3nt16A=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="">
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GovME TSU - Electronic timestamp</Name>
+                            <Name xml:lang="sr-latn">GovME TSU - Elektronski vremenski pečat</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GovME TSU1, OID.2.5.4.97=VATME-11070043, O=Ministarstvo javne uprave, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>nkNpHpoiB4K7tYsgmvyJ+PscDCU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GovME QVS - Qualified validation service for qualified electronic signature and qualified electronic seal</Name>
+                            <Name xml:lang="sr-latn">GovME QVS - Kvalifikovana usluga verifikacije kvalifikovanih elektronskih potpisa i kvalifikovanih elektronskih pečata</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GovME QVS, OID.2.5.4.97=VATME-11070043, O=Ministarstvo javne uprave, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>2z2xI6YNoj6WlgUlLzvUQMf/7uI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GovME QEDS - Qualified electronic registered delivery service</Name>
+                            <Name xml:lang="sr-latn">GovME QEDS - Kvalifikovana usluga elektronske preporučene dostave</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GovME QEDS, OID.2.5.4.97=VATME-11070043, O=Ministarstvo javne uprave, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>P8FCgCknooJZ2DTISZYg28TasBk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-03-13T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -1281,4 +1454,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-94b53d2b46dee037305424c8a9bc7c0e"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ibJIvQqH3Cfb7NpO2Ay00IBHMqgs2gE8qddy/J0kPNI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-94b53d2b46dee037305424c8a9bc7c0e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EdBbfRpp3y8rqDkOthheTWpdsrqVAC0HMZ2A379Hv44=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-94b53d2b46dee037305424c8a9bc7c0e">FwMocNMZWll6lyBjypI/B1a8YgHZ4Lp7KRqeZO5uUNvDYpUA+SfrIRGJEm3EPGdnE+QVGQ2orO7uhm/Ici6gsX8NhjVaG5YYACk51vg29E1UF0+5wL+MBbzLxPlNvzG2RxawsIa6AD2M+LPmCB3gu/VSVql2xWVzeV4PDnVTWBIeMn/KFqvUsZZDbzLCDe2LQbqFhVGExmix7+wcIOdOdL0FSedOAMbAgdTwK8Os0kQ9tJNPqe2rxqd2YafPBweNF/whFlocxLFdZh2iWXJH/W2Ds5XjhfBObI9kjBWhic7fZQTiixU+vOyZjyfKDFnTOr77fygPd+eh+yazDHaxWw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-94b53d2b46dee037305424c8a9bc7c0e"><xades:SignedProperties Id="xades-id-94b53d2b46dee037305424c8a9bc7c0e"><xades:SignedSignatureProperties><xades:SigningTime>2025-02-21T09:59:32Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>2RsPxdsF5CYrawXQ9igPSfpBO6M=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-71ebac8c2c7a33e1ba4aa8d84ef01520"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>d9yICXSDEFhFk3CsWGR74JEG4oLhClCWkK/5mO82E7c=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-71ebac8c2c7a33e1ba4aa8d84ef01520"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>5k3Dh+qEwBvowZFuS07FO4LawfJO03oHKyU0GfC01zw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-71ebac8c2c7a33e1ba4aa8d84ef01520">dloEYgpw30TKOAkoKnbUy2wNQolOIaB3LY0HGilErlFlZOZC10ePDlYQTkQQCuXx/h29eTLEya2pIJ1TvaSZMWEmU1FRPL8ZnRJ8wkq9lguKTc04nAzBbSj50vytq/G1aEjip3F1k45xISbUm9g7V9UuIUhnkOMQ8pkQcB9fW0wNLPOLadw0X+2FeS+Zkrb7GfRmNetrngRu5cHyCFq5lB++/VJrCNkgAW6SBdcdJ5g4gp9Y3RXIsK918wqFNxwO2elHpX90NeBOxaQCCAzkgLKeoIwZD/q+YL/y+F+i4kXFiBGMoFwE0dtW3caDxWheABDqwf/IZgE+2trNQK8KRA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-71ebac8c2c7a33e1ba4aa8d84ef01520"><xades:SignedProperties Id="xades-id-71ebac8c2c7a33e1ba4aa8d84ef01520"><xades:SignedSignatureProperties><xades:SigningTime>2025-03-17T08:54:05Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>2RsPxdsF5CYrawXQ9igPSfpBO6M=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>6354299956815625911</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

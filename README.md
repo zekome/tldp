@@ -18,7 +18,7 @@ Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-uslug
 
 Sequence number: 18
 
-Status: Ok.
+Status: TL Operator notified about fix proposal.
 
 
 

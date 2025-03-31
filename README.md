@@ -12,7 +12,7 @@ Common files in repository:
 - trustlist.xml - distributed TrustList which is same as the source or implements proposed fix but with broken signature
 
 
-## Montenegro (ME) &#x1F7E2;
+## Montenegro (ME) &#x1F534;
 
 Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-usluge-povjerenja
 

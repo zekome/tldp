@@ -1184,7 +1184,7 @@
         <ns5:Qualifiers>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="">
+        <ns5:CriteriaList assert="none">
             <ns5:Description/>
         </ns5:CriteriaList>
     </ns5:QualificationElement>

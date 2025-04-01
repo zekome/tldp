@@ -12,13 +12,13 @@ Common files in repository:
 - trustlist.xml - distributed TrustList which is same as the source or implements proposed fix but with broken signature
 
 
-## Montenegro (ME) &#x1F534;
+## Montenegro (ME) &#x1F7E2;
 
 Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-usluge-povjerenja
 
-Sequence number: 18
+Sequence number: 19
 
-Status: TL Operator notified about fix proposal.
+Status: Ok.
 
 
 

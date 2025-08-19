@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ME_TL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>20</TSLSequenceNumber>
+        <TSLSequenceNumber>21</TSLSequenceNumber>
         <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Montenegro, Ministry of Public administration</Name>
@@ -94,9 +94,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-06-20T01:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-08-01T01:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-12-20T00:00:00Z</dateTime>
+            <dateTime>2026-02-01T00:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tl.gov.me/ME_TL.xml</URI>
@@ -1325,7 +1325,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Electronic registrered delivery service - eDostava</Name>
+                            <Name xml:lang="en">Electronic registered delivery service - eDostava</Name>
                             <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave - eDostava</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
@@ -1463,5 +1463,65 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">PPL doo Podgorica</Name>
+                    <Name xml:lang="sr-latn">PPL doo Podgorica</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">PPL doo Podgorica</Name>
+                    <Name xml:lang="sr-latn">PPL doo Podgorica</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Evropska No 2</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="sr-latn">
+                            <StreetAddress>Evropska br.2</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:office@pplcg.me</URI>
+                        <URI xml:lang="sr-latn">mailto:office@pplcg.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://pplcg.me/</URI>
+                    <URI xml:lang="sr-latn">https://pplcg.me/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Electronic registered delivery service - eDostava</Name>
+                            <Name xml:lang="sr-latn">Usluga elektronske preporučene dostave - eDostava</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFvzCCBKegAwIBAgIRAc48Ie27xD33Al7QsDvPmcEwDQYJKoZIhvcNAQENBQAwgaYxIDAeBgNVBAMMF1BhcGVybGVzcyBQTCBlU2VhbCBDQSAxMR4wHAYDVQQKDBVQYXBlcmxlc3MgZG9vIEJlb2dyYWQxETAPBgNVBAcMCEJlbGdyYWRlMQ8wDQYDVQQIDAZTZXJiaWExCzAJBgNVBAYTAlJTMRgwFgYDVQRhDA9WQVRSUy0xMDg3MDkxMzAxFzAVBgNVBGEMDk1COlJTLTIxMDUyMDE5MB4XDTI1MDYyNDIyMTgzMloXDTI4MDYyNDIyMTgzMlowgbIxFzAVBgNVBGEMDlZBVE1FLTAzNjA1ODY4MRcwFQYDVQRhDA5NQjpNRS01MTE4MzU2MjEQMA4GA1UECgwHUFBMIERPTzEbMBkGA1UEAwwSUFBMIERPTyBlRG9zdGF2YSAxMRwwGgYJKoZIhvcNAQkBFg1pbmZvQHBwbGNnLm1lMRIwEAYDVQQHDAlQb2Rnb3JpY2ExEDAOBgNVBAUTB0NBOlJTLTExCzAJBgNVBAYTAk1FMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9/r3FOHDkWDmXm2wpeRhX8Tl2i6il9UbgyLxR1qjwYn5yHAp+P0ny/Nne+FwkI0X4bdKVXWuODRS2gKQTk8gyZGz4Hl+qSpKJNeuBFU8ocoWQ7I3QZcKg5xJ//q0Dgd1QL7Y7bBOTfp8RdMUIBz6XJt3FW4+HfipKKqzevfSHC09cMwGQzUbJDXzE5z/dlF/c9D7zLuC1IOUbjZwBYHk0NCojNLHDNzibRXSHWUR6zHmnAXmoprr/kbeRMGdkBl2JqF/amhfMM9HgrmcUWH+mQIyE9gRNfs6mSB5sLUDBMo36gKy7wykJAMxtEeuOoHpogmFEkTyaIG7IHfY4mcuNwIDAQABo4IB2DCCAdQwDgYDVR0PAQH/BAQDAgbAMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUwnjf+Z5qaJL+qtS7P541vHIJx4IwHQYDVR0OBBYEFEjTKuATSJOz/JvXfdn+wKOn/3CPMEsGA1UdHwREMEIwQKA+oDyGOmh0dHBzOi8vcmV2b2NhdGlvbi5wYXBlcmxlc3MucnMvUGFwZXJsZXNzX1BMX2VTZWFsX0NBMS5jcmwwIgYIKwYBBQUHAQMEFjAUMAgGBgQAjkYBATAIBgYEAI5GAQQwgYsGCCsGAQUFBwEBBH8wfTBJBggrBgEFBQcwAoY9aHR0cHM6Ly9kb2NzLnBhcGVybGVzcy5ycy9DQS9jZXJ0cy9QYXBlcmxlc3NfUExfZVNlYWxfQ0ExLmNydDAwBggrBgEFBQcwAYYkaHR0cHM6Ly9yZXZvY2F0aW9uLnBhcGVybGVzcy5ycy9vY3NwMFIGA1UdIARLMEkwRwYEVR0gADA/MD0GCCsGAQUFBwIBFjFodHRwczovL2RvY3MucGFwZXJsZXNzLnJzL0NBL1BhcGVybGVzc19RQ19DUFMucGRmMCQGA1UdEQQdMBuCGVJGQzgyMiBOYW1lPWluZm9AcHBsY2cubWUwDQYJKoZIhvcNAQENBQADggEBADBIzTCiETWGYvWtk+TBMPd16YoMXskAjO5ShBj+BCqWf/ODzyx6lNCLLTj4Ci9y3BJl5V4iDf7UcmpaqwidHNMLlMYAS0eX+uU6VF3rOCZbwhcjM3zmopgNBUy8EbeuAQ+ardiUU0hh1o2PqVlMhOOVuBKSv1xxSZqSwpL2NA40gpYFQ0psrUcX1jmemCpqHVXs1Z3paKFEFom6F/1CHt+FtiZqeJkgT8A0gOtx1++iKJ17F1YK7ghb0Mvde4gZ9AElfCjW0mqezgSD1y6Ocuz0CPZCP+/zeEjXd3F8AIy/YiZcMLsE0Che32N1Wi1CctWkAxmQtpgUzEaql21ZpWY=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=ME, SERIALNUMBER=CA:RS-1, L=Podgorica, EMAILADDRESS=info@pplcg.me, CN=PPL DOO eDostava 1, O=PPL DOO, OID.2.5.4.97=MB:ME-51183562, OID.2.5.4.97=VATME-03605868</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>SNMq4BNIk7P8m9d92f7Ao6f/cI8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2025-07-30T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c44d8cfb78615e7fa00f57219ec28057"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>n8PpsgzVlaPeQqi1bNmevQ8is0s4WSIL9sTZEdM1HPU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c44d8cfb78615e7fa00f57219ec28057"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vB/4B9v8JMaBK9TR9qV7eK6N9ibShy4PFCzcmsOy7hE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c44d8cfb78615e7fa00f57219ec28057">acwR2/m7Cp2km7Oms4uYH4HWjggplX195vdh0URYn8dOXlx5OeIp0JZm/g+TlalKkUSdxB2hDxZTJzZ0OWa9WgxDgQZlKu2UqjIMyYYK1eaaTFZQfjEeMlXGxTrAqyL42rHxeOfQvgETmv4/1GNftg8acKy/ThoiyjZG6VtURG6b1ykT9O9aPCwfLupPp3SneJ05qugitfg+kLkU7PQqYMeOcbiy4jgeBj1XOD/xL+O1iI28IDfAkFxRT1kyes5JBJoBaE1ByK0U+vMnUXnR9Bh2EHUnc5k2Lrd9qBkL1g6SqXIQxP8nGVvsFTEWcDgLCwO80v8K5y8UVzPhNGVegw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDqTCCApGgAwIBAgIIeeAaqpugnn4wDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yNTAzMjgxMDQ3MDBaFw0yODAzMjgxMDQ3MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKeP8Ts0Fdfsj4R+lpG3VTejPraWS51dMqDdKfIPN9adeSZvoAyI+GsKgztTRb01yFGScu/yZgecJfkdnv0HBhMssoOjLMLaY5TOVncVxDO61Gn0MQEZzPrM1FyKTayTRDnzVnV91MfXUHli1GT+0djvxTTmUfvtedyi/hXUmiOm3eu6fP+NDN/8z3LZuJ0+MvcCRTmswjoqs2l8nEUKIU8JyJi/dozpOtFoivX8yzQXxidrVYex26AE07IbN3R+8yEK4VToHmhDeuuPW81UX4qgFVlBMp6YMkFo2viaaJ64Z40x7pPOIJeB+mtzRoOnr0X3kK+MPbs7K8inBRzBb7AgMBAAGjVTBTMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJDNn+o35O0/sXx8LBGMjjvVtVyrMA4GA1UdDwEB/wQEAwIHgDAUBgNVHSUBAf8ECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBAGutlHJjDj5aS60pGwN97piRpv4Rq5aJwYkmkzqEXxNPLdq/IUTJcJfk7wci5EFV43Zvngpl4cO89jOg9w4Axel1FArhjOuHkBchcSQraZXBuq0mnBHxkcLct9LEBVs08Hl62YO5H0vbzRqLDIH//zWrdn2xjOj913Z4EoclzmtxRrflnOgN86OWhOWOt1jqk8GXlMaAnFs61jjdZ9HIbTyaANdG33dPL4kdiIAyGpL+/+sRJRD7iPVbmKsYTA8Aib/FIcyhk72m4vgzJ5jNBpCeNIu7Hc64okqS8rlaeUOVz8h0Bvt21Di6qQW2bp6tp1XVWifPCy1A/Lzm88zy6Lo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c44d8cfb78615e7fa00f57219ec28057"><xades:SignedProperties Id="xades-id-c44d8cfb78615e7fa00f57219ec28057"><xades:SignedSignatureProperties><xades:SigningTime>2025-06-20T11:11:54Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>4PHzkUIe2XWKUvOU3AH8+xYjLWc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>8782048593430224510</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-8d17a3b142e99d113c37b292a0486b61"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Dwdp8bxYtRjhcZFn60J5czolE2b+1/zAtU7283q1sbk=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-8d17a3b142e99d113c37b292a0486b61"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Gq78Bu3Yb2CQLhYUsV5rVRG3zmtKooskbi1D7lUJTkU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-8d17a3b142e99d113c37b292a0486b61">PiCTLSrMIC83aZvRhE5QCSMbySPZZmseJyzMW1185jHjYGBv3rIFSNa5tbDhmC0LlUgEFyjtXn2NrP8PEQ036m9mo0Nvy5YVFxpIThejZezSE0JJ1PVxqI0iHSkcfOwtlT2wMeVbHVqb+x+GvNwBuF6NqTcMpdXemcCMV0StVFD4k9ELjgeji7PCBFOFJfMi557r3znPO7igqVVg6nh9FMR4/qchd7AXLI7qRC+HYvwgXBhXIlESqu1PQkH2Sz68x9kc6Vxj/RzL3RnTv9XpImYZ7p4pJl9NehKAOskY9xa/szoAcDdKmrzdZS0OrxAoLBHqH/ZM6Ju6D0E6fliHHQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDqTCCApGgAwIBAgIIeeAaqpugnn4wDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yNTAzMjgxMDQ3MDBaFw0yODAzMjgxMDQ3MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKeP8Ts0Fdfsj4R+lpG3VTejPraWS51dMqDdKfIPN9adeSZvoAyI+GsKgztTRb01yFGScu/yZgecJfkdnv0HBhMssoOjLMLaY5TOVncVxDO61Gn0MQEZzPrM1FyKTayTRDnzVnV91MfXUHli1GT+0djvxTTmUfvtedyi/hXUmiOm3eu6fP+NDN/8z3LZuJ0+MvcCRTmswjoqs2l8nEUKIU8JyJi/dozpOtFoivX8yzQXxidrVYex26AE07IbN3R+8yEK4VToHmhDeuuPW81UX4qgFVlBMp6YMkFo2viaaJ64Z40x7pPOIJeB+mtzRoOnr0X3kK+MPbs7K8inBRzBb7AgMBAAGjVTBTMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJDNn+o35O0/sXx8LBGMjjvVtVyrMA4GA1UdDwEB/wQEAwIHgDAUBgNVHSUBAf8ECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBAGutlHJjDj5aS60pGwN97piRpv4Rq5aJwYkmkzqEXxNPLdq/IUTJcJfk7wci5EFV43Zvngpl4cO89jOg9w4Axel1FArhjOuHkBchcSQraZXBuq0mnBHxkcLct9LEBVs08Hl62YO5H0vbzRqLDIH//zWrdn2xjOj913Z4EoclzmtxRrflnOgN86OWhOWOt1jqk8GXlMaAnFs61jjdZ9HIbTyaANdG33dPL4kdiIAyGpL+/+sRJRD7iPVbmKsYTA8Aib/FIcyhk72m4vgzJ5jNBpCeNIu7Hc64okqS8rlaeUOVz8h0Bvt21Di6qQW2bp6tp1XVWifPCy1A/Lzm88zy6Lo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-8d17a3b142e99d113c37b292a0486b61"><xades:SignedProperties Id="xades-id-8d17a3b142e99d113c37b292a0486b61"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-01T12:05:59Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>4PHzkUIe2XWKUvOU3AH8+xYjLWc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#130544756b616a,2.5.4.42=#13064d6172617368,CN=Marash Dukaj,O=Ministarstvo javne uprave,C=ME</ds:X509IssuerName><ds:X509SerialNumber>8782048593430224510</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

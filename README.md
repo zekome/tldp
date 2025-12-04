@@ -26,7 +26,7 @@ Status: Ok.
 
 Source: https://mit.gov.rs/TrustedList 
 
-Sequence number: 28
+Sequence number: 30
 
 Status: Ok.
 

@@ -16,7 +16,7 @@ Common files in repository:
 
 Source: https://www.gov.me/clanak/elektronska-identifikacija-i-elektronske-usluge-povjerenja
 
-Sequence number: 21
+Sequence number: 22
 
 Status: Ok.
 
